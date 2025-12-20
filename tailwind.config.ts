@@ -56,6 +56,19 @@ export default {
         },
         glow: "hsl(var(--glow-primary))",
         surface: "hsl(var(--surface-elevated))",
+        gold: {
+          DEFAULT: "hsl(var(--gold))",
+          light: "hsl(var(--gold-light))",
+          subtle: "hsl(var(--gold-subtle))",
+        },
+        navy: {
+          DEFAULT: "hsl(var(--navy))",
+          deep: "hsl(var(--navy-deep))",
+        },
+        cream: {
+          DEFAULT: "hsl(var(--cream))",
+          muted: "hsl(var(--cream-muted))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
