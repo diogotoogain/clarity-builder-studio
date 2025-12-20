@@ -6,54 +6,66 @@
 
 @layer base {
   :root {
-    --background: 240 10% 4%;
-    --foreground: 0 0% 98%;
+    --background: 222 20% 6%;
+    --foreground: 45 10% 96%;
 
-    --card: 240 10% 6%;
-    --card-foreground: 0 0% 98%;
+    --card: 222 18% 8%;
+    --card-foreground: 45 10% 96%;
 
-    --popover: 240 10% 6%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 222 18% 8%;
+    --popover-foreground: 45 10% 96%;
 
-    --primary: 168 76% 42%;
-    --primary-foreground: 240 10% 4%;
+    --primary: 43 74% 49%;
+    --primary-foreground: 222 20% 6%;
 
-    --secondary: 240 8% 12%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 222 15% 12%;
+    --secondary-foreground: 45 10% 96%;
 
-    --muted: 240 8% 14%;
-    --muted-foreground: 240 5% 55%;
+    --muted: 222 12% 16%;
+    --muted-foreground: 222 10% 55%;
 
-    --accent: 168 76% 42%;
-    --accent-foreground: 240 10% 4%;
+    --accent: 43 74% 49%;
+    --accent-foreground: 222 20% 6%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 45 10% 96%;
 
-    --border: 240 6% 18%;
-    --input: 240 6% 18%;
-    --ring: 168 76% 42%;
+    --border: 222 12% 18%;
+    --input: 222 12% 18%;
+    --ring: 43 74% 49%;
 
-    --radius: 0.75rem;
+    --radius: 0.875rem;
 
-    /* Custom tokens */
-    --glow-primary: 168 76% 42%;
-    --surface-elevated: 240 10% 8%;
-    --text-primary: 0 0% 98%;
-    --text-secondary: 240 5% 70%;
-    --text-muted: 240 5% 50%;
+    /* Quiet Luxury tokens */
+    --gold: 43 74% 49%;
+    --gold-light: 43 60% 65%;
+    --gold-subtle: 43 40% 30%;
+    --navy: 222 30% 12%;
+    --navy-deep: 222 25% 8%;
+    --cream: 45 10% 96%;
+    --cream-muted: 45 5% 75%;
+
+    /* Custom surface tokens */
+    --glow-primary: 43 74% 49%;
+    --surface-elevated: 222 18% 10%;
+    --surface-glass: 222 18% 8%;
+    --text-primary: 45 10% 96%;
+    --text-secondary: 222 10% 70%;
+    --text-muted: 222 10% 50%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(168 76% 42%) 0%, hsl(180 70% 35%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(240 10% 6%) 0%, hsl(240 10% 4%) 100%);
-    --gradient-glow: radial-gradient(ellipse at center, hsl(168 76% 42% / 0.15) 0%, transparent 70%);
-    --gradient-hero: radial-gradient(ellipse 80% 50% at 50% -20%, hsl(168 76% 42% / 0.2) 0%, transparent 50%);
+    --gradient-primary: linear-gradient(135deg, hsl(43 74% 49%) 0%, hsl(43 60% 40%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(222 18% 8%) 0%, hsl(222 20% 6%) 100%);
+    --gradient-glow: radial-gradient(ellipse at center, hsl(43 74% 49% / 0.12) 0%, transparent 70%);
+    --gradient-hero: radial-gradient(ellipse 80% 50% at 50% -20%, hsl(43 74% 49% / 0.15) 0%, transparent 50%);
+    --gradient-gold: linear-gradient(135deg, hsl(43 74% 49%) 0%, hsl(43 60% 60%) 50%, hsl(43 74% 49%) 100%);
 
     /* Shadows */
-    --shadow-sm: 0 1px 2px hsl(0 0% 0% / 0.3);
-    --shadow-md: 0 4px 16px hsl(0 0% 0% / 0.4);
-    --shadow-lg: 0 8px 32px hsl(0 0% 0% / 0.5);
-    --shadow-glow: 0 0 40px hsl(168 76% 42% / 0.2);
+    --shadow-sm: 0 1px 2px hsl(0 0% 0% / 0.4);
+    --shadow-md: 0 4px 16px hsl(0 0% 0% / 0.5);
+    --shadow-lg: 0 8px 32px hsl(0 0% 0% / 0.6);
+    --shadow-glow: 0 0 40px hsl(43 74% 49% / 0.15);
+    --shadow-gold: 0 4px 20px hsl(43 74% 49% / 0.2);
   }
 }
 
