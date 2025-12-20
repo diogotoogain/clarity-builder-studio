@@ -125,12 +125,12 @@ const TestimonialCard = ({
       whileTap={{ scale: 0.98 }}
       transition={{ duration: 0.2 }}
     >
-      <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-card border border-border/50 shadow-lg">
+      <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-card border border-border/50 shadow-lg">
         {/* Thumbnail */}
         <img 
           src={testimonial.image} 
           alt={`Depoimento de ${testimonial.name}`}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="w-full h-full object-contain bg-black/50 transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
         />
         
@@ -175,7 +175,7 @@ const TestimonialModal = ({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl w-[95vw] max-h-[90vh] p-0 gap-0 bg-card border-border/50 overflow-hidden">
+      <DialogContent className="max-w-4xl w-[95vw] h-[85vh] md:h-auto md:max-h-[90vh] p-0 gap-0 bg-card border-border/50 overflow-hidden flex flex-col">
         <DialogTitle className="sr-only">
           Depoimento de {testimonial.name}
         </DialogTitle>
@@ -186,16 +186,16 @@ const TestimonialModal = ({
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 z-50 w-10 h-10 rounded-full bg-background/80 backdrop-blur-sm flex items-center justify-center text-foreground hover:bg-background transition-colors"
+          className="absolute top-2 right-2 z-50 w-8 h-8 md:w-10 md:h-10 rounded-full bg-background/80 backdrop-blur-sm flex items-center justify-center text-foreground hover:bg-background transition-colors"
           aria-label="Fechar"
         >
-          <X size={20} />
+          <X size={18} />
         </button>
 
-        <div className="flex flex-col lg:flex-row h-full max-h-[90vh]">
+        <div className="flex flex-col lg:flex-row flex-1 overflow-hidden">
           {/* Video section */}
-          <div className="w-full lg:w-1/2 bg-black">
-            <div className="relative aspect-[9/16] lg:aspect-auto lg:h-full">
+          <div className="w-full lg:w-1/2 bg-black shrink-0">
+            <div className="relative aspect-video lg:aspect-auto lg:h-full">
               <iframe
                 src={testimonial.vimeoUrl}
                 className="absolute inset-0 w-full h-full"
@@ -206,25 +206,25 @@ const TestimonialModal = ({
             </div>
           </div>
 
-          {/* Transcript section */}
-          <div className="w-full lg:w-1/2 flex flex-col">
-            <div className="p-6 border-b border-border/50">
-              <div className="flex items-center gap-3 mb-3">
-                <Quote size={20} className="text-primary" />
+          {/* Transcript section - scrollable on mobile */}
+          <div className="w-full lg:w-1/2 flex flex-col min-h-0 flex-1 overflow-hidden">
+            <div className="p-4 md:p-6 border-b border-border/50 shrink-0">
+              <div className="flex items-center gap-3 mb-2">
+                <Quote size={18} className="text-primary shrink-0" />
                 <span className="text-sm font-medium text-primary">{testimonial.name}</span>
               </div>
-              <h3 className="text-lg font-semibold text-foreground leading-tight">
+              <h3 className="text-base md:text-lg font-semibold text-foreground leading-tight">
                 {t(testimonial.headlineKey)}
               </h3>
             </div>
             
-            <ScrollArea className="flex-1 p-6">
+            <div className="flex-1 overflow-y-auto p-4 md:p-6">
               <div className="prose prose-sm prose-invert max-w-none">
                 <p className="text-muted-foreground leading-relaxed whitespace-pre-line text-sm">
                   {t(testimonial.transcriptKey)}
                 </p>
               </div>
-            </ScrollArea>
+            </div>
           </div>
         </div>
       </DialogContent>
