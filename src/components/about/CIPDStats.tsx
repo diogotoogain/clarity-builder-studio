@@ -145,10 +145,13 @@ const CIPDStats = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.5 }}
         >
-          <div className="bg-card rounded-xl p-5 border border-border/50">
+          <div className="bg-card rounded-xl p-5 border border-border/50 space-y-3">
             <p className="text-sm text-muted-foreground text-center leading-relaxed">
               <span className="text-primary font-medium">{t('cipd.management')}</span>{' '}
               {t('cipd.managementText')}
+            </p>
+            <p className="text-xs text-muted-foreground/70 text-center italic">
+              {t('cipd.disclaimer')}
             </p>
           </div>
         </motion.div>
