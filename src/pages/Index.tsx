@@ -11,8 +11,10 @@ import GroupStructure from '@/components/about/GroupStructure';
 import CIPDStats from '@/components/about/CIPDStats';
 import FamilySection from '@/components/about/FamilySection';
 import GlobalCommunity from '@/components/about/GlobalCommunity';
+import TechnologySection from '@/components/TechnologySection';
 import Footer from '@/components/Footer';
-import { BookOpen, Lightbulb, Settings, TrendingUp, Shield, Sparkles, Clock } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { BookOpen, Lightbulb, Settings, TrendingUp, Shield, Sparkles, Clock, ArrowRight } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
 
 import heroBg from '@/assets/hero-bg.webp';
@@ -82,7 +84,7 @@ const Index = () => {
             {t('hero.description')}
           </motion.p>
           <motion.div 
-            className="flex flex-wrap justify-center gap-2 md:gap-3"
+            className="flex flex-wrap justify-center gap-2 md:gap-3 mb-8 md:mb-10"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
@@ -99,6 +101,32 @@ const Index = () => {
                 {item}
               </motion.span>
             ))}
+          </motion.div>
+
+          {/* CTAs */}
+          <motion.div 
+            className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 1.2 }}
+          >
+            <Button
+              size="lg"
+              className="group bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-full font-medium transition-all duration-300 hover:shadow-glow"
+              onClick={() => document.getElementById('ecossistema')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              {t('hero.cta.ecosystem')}
+              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="group border-primary/30 text-primary hover:bg-primary/10 px-6 py-3 rounded-full font-medium transition-all duration-300"
+              onClick={() => document.getElementById('transparencia-numeros')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              {t('hero.cta.transparency')}
+              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Button>
           </motion.div>
         </div>
 
@@ -327,6 +355,9 @@ const Index = () => {
 
       {/* Sobre - Estrutura do Grupo */}
       <GroupStructure />
+
+      {/* Tecnologia Aplicada */}
+      <TechnologySection />
 
       {/* Sobre - CIPD Stats */}
       <CIPDStats />
