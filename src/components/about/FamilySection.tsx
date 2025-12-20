@@ -92,7 +92,7 @@ const FamilySection = () => {
                   <img
                     src={fotoRiad}
                     alt="Diogo em encontro internacional em Riad, demonstrando visão global"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                     loading="lazy"
                   />
                 </div>
