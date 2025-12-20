@@ -12,6 +12,7 @@ import CIPDStats from '@/components/about/CIPDStats';
 import FamilySection from '@/components/about/FamilySection';
 import GlobalCommunity from '@/components/about/GlobalCommunity';
 import TechnologySection from '@/components/TechnologySection';
+import TestimonialsSection from '@/components/TestimonialsSection';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { BookOpen, Lightbulb, Settings, TrendingUp, Shield, Sparkles, Clock, ArrowRight } from 'lucide-react';
@@ -361,6 +362,9 @@ const Index = () => {
 
       {/* Sobre - CIPD Stats */}
       <CIPDStats />
+
+      {/* Depoimentos */}
+      <TestimonialsSection />
 
       {/* Sobre - Família */}
       <FamilySection />

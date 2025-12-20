@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { testimonialsTranslationsPT, testimonialsTranslationsEN, testimonialsTranslationsES } from './testimonials-i18n';
 
 type Language = 'pt' | 'en' | 'es';
 
@@ -10,6 +11,7 @@ interface I18nContextType {
 
 const translations = {
   pt: {
+    ...testimonialsTranslationsPT,
     // Navigation
     'nav.manifesto': 'Manifesto',
     'nav.ecosystem': 'Ecossistema',
@@ -261,6 +263,7 @@ const translations = {
     'footer.privacy': 'Privacidade',
   },
   en: {
+    ...testimonialsTranslationsEN,
     // Navigation
     'nav.manifesto': 'Manifesto',
     'nav.ecosystem': 'Ecosystem',
@@ -512,6 +515,7 @@ const translations = {
     'footer.privacy': 'Privacy',
   },
   es: {
+    ...testimonialsTranslationsES,
     // Navigation
     'nav.manifesto': 'Manifiesto',
     'nav.ecosystem': 'Ecosistema',
