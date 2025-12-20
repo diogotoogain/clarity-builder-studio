@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
+import { useI18n } from '@/lib/i18n';
 
 const WhatIsToogain = () => {
+  const { t } = useI18n();
+
   return (
     <section className="py-16 md:py-24 bg-secondary/30">
       <div className="container mx-auto px-5">
@@ -21,12 +24,11 @@ const WhatIsToogain = () => {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-6">
-            Toogain: nós ganhamos e você também
+            {t('toogain.title')}
           </h2>
 
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-            Mais do que um nome, uma decisão. A Toogain nasceu para servir pessoas que querem 
-            uma nova fonte de renda além da tradicional — com educação, tecnologia e responsabilidade.
+            {t('toogain.description')}
           </p>
 
           {/* Decorative element */}

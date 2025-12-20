@@ -2,41 +2,42 @@ import { motion, useInView } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react';
 import { Search, ChevronDown, ChevronUp } from 'lucide-react';
 import globalMap from '@/assets/global-map.webp';
+import { useI18n } from '@/lib/i18n';
 
 const countriesData = [
-  { pais: 'Brasil', iso2: 'BR', alunos: 11780 },
-  { pais: 'Estados Unidos', iso2: 'US', alunos: 395 },
-  { pais: 'Portugal', iso2: 'PT', alunos: 298 },
-  { pais: 'Japão', iso2: 'JP', alunos: 168 },
-  { pais: 'Reino Unido', iso2: 'GB', alunos: 102 },
-  { pais: 'Itália', iso2: 'IT', alunos: 84 },
-  { pais: 'Espanha', iso2: 'ES', alunos: 69 },
-  { pais: 'Alemanha', iso2: 'DE', alunos: 65 },
-  { pais: 'Suíça', iso2: 'CH', alunos: 48 },
-  { pais: 'Canadá', iso2: 'CA', alunos: 47 },
-  { pais: 'Irlanda', iso2: 'IE', alunos: 45 },
-  { pais: 'Emirados Árabes', iso2: 'AE', alunos: 38 },
-  { pais: 'França', iso2: 'FR', alunos: 36 },
-  { pais: 'Austrália', iso2: 'AU', alunos: 32 },
-  { pais: 'Países Baixos', iso2: 'NL', alunos: 22 },
-  { pais: 'Bélgica', iso2: 'BE', alunos: 15 },
-  { pais: 'Argentina', iso2: 'AR', alunos: 14 },
-  { pais: 'Paraguai', iso2: 'PY', alunos: 12 },
-  { pais: 'Angola', iso2: 'AO', alunos: 9 },
-  { pais: 'Áustria', iso2: 'AT', alunos: 7 },
-  { pais: 'México', iso2: 'MX', alunos: 6 },
-  { pais: 'Chile', iso2: 'CL', alunos: 5 },
-  { pais: 'Uruguai', iso2: 'UY', alunos: 5 },
-  { pais: 'Israel', iso2: 'IL', alunos: 4 },
-  { pais: 'Nova Zelândia', iso2: 'NZ', alunos: 4 },
-  { pais: 'Noruega', iso2: 'NO', alunos: 3 },
-  { pais: 'Suécia', iso2: 'SE', alunos: 3 },
-  { pais: 'Luxemburgo', iso2: 'LU', alunos: 3 },
-  { pais: 'Moçambique', iso2: 'MZ', alunos: 3 },
-  { pais: 'Catar', iso2: 'QA', alunos: 3 },
-  { pais: 'Dinamarca', iso2: 'DK', alunos: 2 },
-  { pais: 'Polônia', iso2: 'PL', alunos: 2 },
-  { pais: 'Malta', iso2: 'MT', alunos: 1 },
+  { key: 'country.brazil', iso2: 'BR', alunos: 11780 },
+  { key: 'country.usa', iso2: 'US', alunos: 395 },
+  { key: 'country.portugal', iso2: 'PT', alunos: 298 },
+  { key: 'country.japan', iso2: 'JP', alunos: 168 },
+  { key: 'country.uk', iso2: 'GB', alunos: 102 },
+  { key: 'country.italy', iso2: 'IT', alunos: 84 },
+  { key: 'country.spain', iso2: 'ES', alunos: 69 },
+  { key: 'country.germany', iso2: 'DE', alunos: 65 },
+  { key: 'country.switzerland', iso2: 'CH', alunos: 48 },
+  { key: 'country.canada', iso2: 'CA', alunos: 47 },
+  { key: 'country.ireland', iso2: 'IE', alunos: 45 },
+  { key: 'country.uae', iso2: 'AE', alunos: 38 },
+  { key: 'country.france', iso2: 'FR', alunos: 36 },
+  { key: 'country.australia', iso2: 'AU', alunos: 32 },
+  { key: 'country.netherlands', iso2: 'NL', alunos: 22 },
+  { key: 'country.belgium', iso2: 'BE', alunos: 15 },
+  { key: 'country.argentina', iso2: 'AR', alunos: 14 },
+  { key: 'country.paraguay', iso2: 'PY', alunos: 12 },
+  { key: 'country.angola', iso2: 'AO', alunos: 9 },
+  { key: 'country.austria', iso2: 'AT', alunos: 7 },
+  { key: 'country.mexico', iso2: 'MX', alunos: 6 },
+  { key: 'country.chile', iso2: 'CL', alunos: 5 },
+  { key: 'country.uruguay', iso2: 'UY', alunos: 5 },
+  { key: 'country.israel', iso2: 'IL', alunos: 4 },
+  { key: 'country.newZealand', iso2: 'NZ', alunos: 4 },
+  { key: 'country.norway', iso2: 'NO', alunos: 3 },
+  { key: 'country.sweden', iso2: 'SE', alunos: 3 },
+  { key: 'country.luxembourg', iso2: 'LU', alunos: 3 },
+  { key: 'country.mozambique', iso2: 'MZ', alunos: 3 },
+  { key: 'country.qatar', iso2: 'QA', alunos: 3 },
+  { key: 'country.denmark', iso2: 'DK', alunos: 2 },
+  { key: 'country.poland', iso2: 'PL', alunos: 2 },
+  { key: 'country.malta', iso2: 'MT', alunos: 1 },
 ];
 
 const totalStudents = 13305;
@@ -81,9 +82,10 @@ const GlobalCommunity = () => {
   const isInView = useInView(ref, { once: true, margin: '-50px' });
   const [showAll, setShowAll] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
+  const { t } = useI18n();
 
   const filteredCountries = countriesData.filter(country =>
-    country.pais.toLowerCase().includes(searchTerm.toLowerCase())
+    t(country.key).toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   const displayedCountries = showAll ? filteredCountries : filteredCountries.slice(0, 8);
@@ -110,7 +112,7 @@ const GlobalCommunity = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-foreground mb-4">
-            Uma comunidade global
+            {t('global.title')}
           </h2>
 
           {/* Total counter */}
@@ -119,12 +121,12 @@ const GlobalCommunity = () => {
               <AnimatedCounter value={totalStudents} isInView={isInView} />
             </div>
             <p className="text-sm md:text-base text-muted-foreground">
-              alunos ativos em <span className="text-foreground font-medium">33 países</span>
+              {t('global.students')} <span className="text-foreground font-medium">33 {t('global.countries')}</span>
             </p>
           </div>
 
           <p className="text-xs text-muted-foreground mt-4 max-w-md mx-auto">
-            Quando a educação encontra tecnologia, o impacto deixa de ser local.
+            {t('global.subtitle')}
           </p>
         </motion.div>
 
@@ -144,7 +146,7 @@ const GlobalCommunity = () => {
                   <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
                   <input
                     type="text"
-                    placeholder="Buscar país..."
+                    placeholder={t('global.search')}
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                     className="w-full pl-10 pr-4 py-2.5 bg-secondary/50 border border-border/50 rounded-lg text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary/50"
@@ -165,7 +167,7 @@ const GlobalCommunity = () => {
                 >
                   <div className="flex items-center gap-3">
                     <span className="text-xl">{getFlagEmoji(country.iso2)}</span>
-                    <span className="text-sm text-foreground">{country.pais}</span>
+                    <span className="text-sm text-foreground">{t(country.key)}</span>
                   </div>
                   <span className="text-sm font-medium text-primary tabular-nums">
                     {country.alunos.toLocaleString('pt-BR')}
@@ -181,12 +183,12 @@ const GlobalCommunity = () => {
             >
               {showAll ? (
                 <>
-                  <span>Mostrar menos</span>
+                  <span>{t('global.showLess')}</span>
                   <ChevronUp className="w-4 h-4" />
                 </>
               ) : (
                 <>
-                  <span>Ver todos (33)</span>
+                  <span>{t('global.showAll')} (33)</span>
                   <ChevronDown className="w-4 h-4" />
                 </>
               )}
