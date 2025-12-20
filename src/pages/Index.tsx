@@ -1,17 +1,36 @@
+import { motion } from 'framer-motion';
 import Header from '@/components/Header';
-import Section from '@/components/Section';
-import FAQAccordion from '@/components/FAQAccordion';
+import AnimatedSection from '@/components/AnimatedSection';
+import FAQAccordionAnimated from '@/components/FAQAccordionAnimated';
 import EcosystemCard from '@/components/EcosystemCard';
-import FeatureCard from '@/components/FeatureCard';
-import CycleStep from '@/components/CycleStep';
+import AnimatedCard from '@/components/AnimatedCard';
+import AnimatedCycleStep from '@/components/AnimatedCycleStep';
+import Timeline from '@/components/Timeline';
 import Footer from '@/components/Footer';
 import { BookOpen, Lightbulb, Settings, TrendingUp, Shield, Sparkles, Clock } from 'lucide-react';
+import { useI18n } from '@/lib/i18n';
 
 import heroBg from '@/assets/hero-bg.webp';
 import moneyAcademy from '@/assets/money-academy.webp';
 import intelligence from '@/assets/intelligence.webp';
 
 const Index = () => {
+  const { t } = useI18n();
+  const heroWords = [t('hero.clarity'), t('hero.method'), t('hero.execution'), t('hero.evolution')];
+  const principles = [
+    t('principles.item1'),
+    t('principles.item2'),
+    t('principles.item3'),
+    t('principles.item4'),
+    t('principles.item5'),
+  ];
+  const whatWeAreNot = [
+    t('whatWeAreNot.item1'),
+    t('whatWeAreNot.item2'),
+    t('whatWeAreNot.item3'),
+    t('whatWeAreNot.item4'),
+  ];
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -20,291 +39,441 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <img
+          <motion.img
             src={heroBg}
             alt="Ilustração abstrata representando tecnologia e clareza"
             className="w-full h-full object-cover opacity-40"
+            initial={{ scale: 1.1 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/80 to-background" />
           <div className="absolute inset-0 bg-hero-glow" />
         </div>
 
         <div className="container mx-auto relative z-10 text-center px-4 py-20 md:py-32">
-          <h1 className="font-heading font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-foreground mb-4 md:mb-6 animate-fade-up">
-            TOOGAIN
-          </h1>
-          <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-light mb-6 md:mb-8 max-w-2xl mx-auto animate-fade-up delay-100">
-            Educação, tecnologia e inteligência aplicadas à tomada de decisão.
-          </h2>
-          <p className="text-sm sm:text-base text-muted-foreground/80 max-w-xl mx-auto mb-8 md:mb-10 leading-relaxed animate-fade-up delay-200">
-            A TOOGAIN é um ecossistema que une formação prática e inteligência aplicada para transformar conhecimento em execução com responsabilidade e visão de longo prazo.
-          </p>
-          <div className="flex flex-wrap justify-center gap-2 md:gap-3 animate-fade-up delay-300">
-            {['Clareza', 'Método', 'Execução', 'Evolução'].map((item) => (
-              <span
+          <motion.h1 
+            className="font-heading font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-foreground mb-4 md:mb-6"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            {t('hero.title')}
+          </motion.h1>
+          <motion.h2 
+            className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-light mb-6 md:mb-8 max-w-2xl mx-auto"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          >
+            {t('hero.subtitle')}
+          </motion.h2>
+          <motion.p 
+            className="text-sm sm:text-base text-muted-foreground/80 max-w-xl mx-auto mb-8 md:mb-10 leading-relaxed"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+          >
+            {t('hero.description')}
+          </motion.p>
+          <motion.div 
+            className="flex flex-wrap justify-center gap-2 md:gap-3"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+          >
+            {heroWords.map((item, index) => (
+              <motion.span
                 key={item}
                 className="px-3 py-1.5 text-xs font-medium text-primary/90 bg-primary/10 border border-primary/20 rounded-full"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 1 + index * 0.1 }}
+                whileHover={{ scale: 1.1, backgroundColor: 'hsl(var(--primary) / 0.2)' }}
               >
                 {item}
-              </span>
+              </motion.span>
             ))}
-          </div>
+          </motion.div>
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-pulse">
-          <div className="w-6 h-10 border-2 border-muted-foreground/30 rounded-full flex justify-center pt-2">
+        <motion.div 
+          className="absolute bottom-8 left-1/2 -translate-x-1/2"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5 }}
+        >
+          <motion.div 
+            className="w-6 h-10 border-2 border-muted-foreground/30 rounded-full flex justify-center pt-2"
+            animate={{ y: [0, 8, 0] }}
+            transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+          >
             <div className="w-1 h-2 bg-muted-foreground/50 rounded-full" />
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </section>
 
       {/* Manifesto */}
-      <Section id="manifesto">
+      <AnimatedSection id="manifesto">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-8 md:mb-10 text-center">
-            Manifesto
-          </h2>
+          <motion.h2 
+            className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-8 md:mb-10 text-center"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            {t('manifesto.title')}
+          </motion.h2>
           <div className="space-y-6 text-muted-foreground leading-relaxed">
-            <p>
-              Acreditamos que decisões melhores constroem resultados melhores.
-              Por isso, a TOOGAIN existe para transformar informação em clareza, clareza em método e método em execução.
-            </p>
-            <p>
-              Não seguimos modismos.
+            <motion.p
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+            >
+              {t('manifesto.p1')}
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+            >
+              {t('manifesto.p2')}
               <br />
-              Não vendemos ilusões.
+              {t('manifesto.p3')}
               <br />
-              Trabalhamos com responsabilidade, consistência e profundidade.
-            </p>
-            <p>
-              Tecnologia é meio.
+              {t('manifesto.p4')}
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+            >
+              {t('manifesto.p5')}
               <br />
-              Educação é base.
+              {t('manifesto.p6')}
               <br />
-              Caráter e disciplina sustentam o longo prazo.
-            </p>
+              {t('manifesto.p7')}
+            </motion.p>
           </div>
-          <div className="mt-10 md:mt-12 p-6 bg-card border border-primary/20 rounded-2xl text-center shadow-glow">
+          <motion.div 
+            className="mt-10 md:mt-12 p-6 bg-card border border-primary/20 rounded-2xl text-center shadow-glow"
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4 }}
+            whileHover={{ scale: 1.02 }}
+          >
             <p className="font-heading font-semibold text-lg md:text-xl text-foreground">
-              "Autoridade não é volume. É direção."
+              {t('manifesto.quote')}
             </p>
-          </div>
+          </motion.div>
         </div>
-      </Section>
+      </AnimatedSection>
 
       {/* O que fazemos */}
-      <Section id="o-que-fazemos" className="bg-gradient-to-b from-background via-card/30 to-background">
+      <AnimatedSection id="o-que-fazemos" className="bg-gradient-to-b from-background via-card/30 to-background">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-4 text-center">
-            O que fazemos
+            {t('whatWeDo.title')}
           </h2>
           <p className="text-muted-foreground text-center mb-10 md:mb-12 max-w-2xl mx-auto">
-            Nosso trabalho é construir fundamentos sólidos e sistemas aplicáveis — para que decisões deixem de ser improviso e passem a ser processo.
+            {t('whatWeDo.description')}
           </p>
           <div className="grid sm:grid-cols-2 gap-4 md:gap-5">
-            <FeatureCard
-              icon={<BookOpen size={20} />}
-              title="Educação aplicada"
-              description="Aprender com contexto e prática"
-            />
-            <FeatureCard
-              icon={<Lightbulb size={20} />}
-              title="Inteligência aplicada"
-              description="Usar tecnologia e IA com propósito e critério"
-            />
-            <FeatureCard
-              icon={<Settings size={20} />}
-              title="Processos e sistemas"
-              description="Transformar intenção em rotina"
-            />
-            <FeatureCard
-              icon={<TrendingUp size={20} />}
-              title="Evolução contínua"
-              description="Medir, ajustar e manter consistência"
-            />
+            <AnimatedCard delay={0}>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                  <BookOpen size={20} />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-foreground mb-1">{t('whatWeDo.education.title')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('whatWeDo.education.description')}</p>
+                </div>
+              </div>
+            </AnimatedCard>
+            <AnimatedCard delay={0.1}>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                  <Lightbulb size={20} />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-foreground mb-1">{t('whatWeDo.intelligence.title')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('whatWeDo.intelligence.description')}</p>
+                </div>
+              </div>
+            </AnimatedCard>
+            <AnimatedCard delay={0.2}>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                  <Settings size={20} />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-foreground mb-1">{t('whatWeDo.processes.title')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('whatWeDo.processes.description')}</p>
+                </div>
+              </div>
+            </AnimatedCard>
+            <AnimatedCard delay={0.3}>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                  <TrendingUp size={20} />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-foreground mb-1">{t('whatWeDo.evolution.title')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('whatWeDo.evolution.description')}</p>
+                </div>
+              </div>
+            </AnimatedCard>
           </div>
         </div>
-      </Section>
+      </AnimatedSection>
 
       {/* Ecossistema */}
-      <Section id="ecossistema">
+      <AnimatedSection id="ecossistema">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-4 text-center">
-            Um ecossistema. Duas frentes complementares.
+            {t('ecosystem.title')}
           </h2>
           <div className="grid md:grid-cols-2 gap-5 md:gap-6 mt-10 md:mt-12">
             <EcosystemCard
-              title="TOOGAIN Money Academy"
-              description="Formação e desenvolvimento contínuo. Trilhas estruturadas, método e aprendizado aplicável — do entendimento à prática, com consistência."
+              title={t('ecosystem.academy.title')}
+              description={t('ecosystem.academy.description')}
               bullets={[
-                'Fundamentos e mentalidade',
-                'Método e estrutura',
-                'Rotina e execução',
-                'Evolução progressiva',
+                t('ecosystem.academy.bullet1'),
+                t('ecosystem.academy.bullet2'),
+                t('ecosystem.academy.bullet3'),
+                t('ecosystem.academy.bullet4'),
               ]}
               image={moneyAcademy}
               imageAlt="Ilustração abstrata representando formação e trilhas de aprendizado"
             />
             <EcosystemCard
-              title="TOOGAIN Intelligence"
-              description="Tecnologia e inteligência aplicada. Automação, sistemas e uso estratégico de IA para apoiar decisões e reduzir ruído."
+              title={t('ecosystem.intelligence.title')}
+              description={t('ecosystem.intelligence.description')}
               bullets={[
-                'IA aplicada com responsabilidade',
-                'Automação e eficiência',
-                'Sistemas e dashboards',
-                'Processos replicáveis',
+                t('ecosystem.intelligence.bullet1'),
+                t('ecosystem.intelligence.bullet2'),
+                t('ecosystem.intelligence.bullet3'),
+                t('ecosystem.intelligence.bullet4'),
               ]}
               image={intelligence}
               imageAlt="Ilustração abstrata representando inteligência aplicada e automação"
             />
           </div>
           <p className="text-xs text-muted-foreground/70 text-center mt-8 max-w-2xl mx-auto">
-            A TOOGAIN prioriza responsabilidade e clareza. Conteúdo educacional não substitui análise individual e não constitui recomendação personalizada.
+            {t('ecosystem.disclaimer')}
           </p>
         </div>
-      </Section>
+      </AnimatedSection>
 
       {/* Como Atuamos */}
-      <Section id="como-atuamos" className="bg-gradient-to-b from-background via-card/30 to-background">
+      <AnimatedSection id="como-atuamos" className="bg-gradient-to-b from-background via-card/30 to-background">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-4 text-center">
-            Como atuamos
+            {t('howWeWork.title')}
           </h2>
           <p className="text-muted-foreground text-center mb-10 md:mb-12">
-            Tudo começa com clareza e termina em consistência. Nossa atuação segue um ciclo simples e profundo.
+            {t('howWeWork.description')}
           </p>
-          <div className="bg-card border border-border/50 rounded-2xl p-6 md:p-8">
-            <CycleStep
+          <motion.div 
+            className="bg-card border border-border/50 rounded-2xl p-6 md:p-8"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <AnimatedCycleStep
               number={1}
-              title="Clareza"
-              description="Entender o contexto e eliminar ruído"
+              title={t('howWeWork.clarity')}
+              description={t('howWeWork.clarity.description')}
+              index={0}
             />
-            <CycleStep
+            <AnimatedCycleStep
               number={2}
-              title="Método"
-              description="Estruturar caminho e critérios"
+              title={t('howWeWork.method')}
+              description={t('howWeWork.method.description')}
+              index={1}
             />
-            <CycleStep
+            <AnimatedCycleStep
               number={3}
-              title="Execução"
-              description="Prática orientada e rotina sustentável"
+              title={t('howWeWork.execution')}
+              description={t('howWeWork.execution.description')}
+              index={2}
             />
-            <CycleStep
+            <AnimatedCycleStep
               number={4}
-              title="Evolução"
-              description="Revisão, melhoria e ajuste contínuo"
+              title={t('howWeWork.evolution')}
+              description={t('howWeWork.evolution.description')}
               isLast
+              index={3}
             />
-          </div>
+          </motion.div>
         </div>
-      </Section>
+      </AnimatedSection>
+
+      {/* Timeline */}
+      <AnimatedSection id="timeline">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-4 text-center">
+            {t('timeline.title')}
+          </h2>
+          <p className="text-muted-foreground text-center mb-12 md:mb-16 max-w-2xl mx-auto">
+            {t('timeline.subtitle')}
+          </p>
+          <Timeline />
+        </div>
+      </AnimatedSection>
 
       {/* Diferenciais */}
-      <Section id="diferenciais">
+      <AnimatedSection id="diferenciais" className="bg-gradient-to-b from-background via-card/30 to-background">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-10 md:mb-12 text-center">
-            O que sustenta a TOOGAIN
+            {t('differentials.title')}
           </h2>
           <div className="grid sm:grid-cols-3 gap-4 md:gap-5">
-            <FeatureCard
-              icon={<Shield size={20} />}
-              title="Responsabilidade acima de narrativa"
-              description="Preferimos o que é verdadeiro ao que é chamativo."
-            />
-            <FeatureCard
-              icon={<Sparkles size={20} />}
-              title="Simplicidade com profundidade"
-              description="Sem complicação desnecessária. Sem superficialidade."
-            />
-            <FeatureCard
-              icon={<Clock size={20} />}
-              title="Longo prazo como princípio"
-              description="Consistência é mais importante do que intensidade."
-            />
+            <AnimatedCard delay={0}>
+              <div className="text-center">
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                  <Shield size={24} />
+                </div>
+                <h3 className="font-heading font-semibold text-foreground mb-2">{t('differentials.responsibility.title')}</h3>
+                <p className="text-sm text-muted-foreground">{t('differentials.responsibility.description')}</p>
+              </div>
+            </AnimatedCard>
+            <AnimatedCard delay={0.1}>
+              <div className="text-center">
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                  <Sparkles size={24} />
+                </div>
+                <h3 className="font-heading font-semibold text-foreground mb-2">{t('differentials.simplicity.title')}</h3>
+                <p className="text-sm text-muted-foreground">{t('differentials.simplicity.description')}</p>
+              </div>
+            </AnimatedCard>
+            <AnimatedCard delay={0.2}>
+              <div className="text-center">
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                  <Clock size={24} />
+                </div>
+                <h3 className="font-heading font-semibold text-foreground mb-2">{t('differentials.longTerm.title')}</h3>
+                <p className="text-sm text-muted-foreground">{t('differentials.longTerm.description')}</p>
+              </div>
+            </AnimatedCard>
           </div>
         </div>
-      </Section>
+      </AnimatedSection>
 
       {/* Princípios */}
-      <Section id="principios" className="bg-gradient-to-b from-background via-card/30 to-background">
+      <AnimatedSection id="principios">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-10 md:mb-12">
-            Princípios inegociáveis
+            {t('principles.title')}
           </h2>
           <ul className="space-y-4 text-muted-foreground text-left max-w-md mx-auto mb-10">
-            {[
-              'Verdade e responsabilidade',
-              'Excelência com simplicidade',
-              'Transparência e método',
-              'Família e propósito',
-              'Serviço acima de vaidade',
-            ].map((item, index) => (
-              <li key={index} className="flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
+            {principles.map((item, index) => (
+              <motion.li 
+                key={index} 
+                className="flex items-center gap-3"
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+              >
+                <motion.span 
+                  className="w-2 h-2 rounded-full bg-primary flex-shrink-0"
+                  initial={{ scale: 0 }}
+                  whileInView={{ scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 + 0.2 }}
+                />
                 <span>{item}</span>
-              </li>
+              </motion.li>
             ))}
           </ul>
-          <p className="text-muted-foreground">
-            A TOOGAIN não foi construída para ruído. Foi construída para direção.
-          </p>
+          <motion.p 
+            className="text-muted-foreground"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            {t('principles.footer')}
+          </motion.p>
         </div>
-      </Section>
+      </AnimatedSection>
 
       {/* O que não somos */}
-      <Section id="o-que-nao-somos">
+      <AnimatedSection id="o-que-nao-somos" className="bg-gradient-to-b from-background via-card/30 to-background">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-10 md:mb-12">
-            O que a TOOGAIN não é
+            {t('whatWeAreNot.title')}
           </h2>
           <ul className="space-y-3 text-muted-foreground text-left max-w-sm mx-auto mb-10">
-            {[
-              'Não é promessa de ganho fácil',
-              'Não é atalho',
-              'Não é moda passageira',
-              'Não é barulho',
-            ].map((item, index) => (
-              <li key={index} className="flex items-center gap-3">
+            {whatWeAreNot.map((item, index) => (
+              <motion.li 
+                key={index} 
+                className="flex items-center gap-3"
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+              >
                 <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/50 flex-shrink-0" />
                 <span>{item}</span>
-              </li>
+              </motion.li>
             ))}
           </ul>
-          <div className="p-6 bg-card border border-primary/20 rounded-2xl shadow-glow">
+          <motion.div 
+            className="p-6 bg-card border border-primary/20 rounded-2xl shadow-glow"
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            whileHover={{ scale: 1.02 }}
+          >
             <p className="font-heading font-semibold text-lg md:text-xl text-foreground">
-              "Preferimos crescer certo do que crescer rápido."
+              {t('whatWeAreNot.quote')}
             </p>
-          </div>
+          </motion.div>
         </div>
-      </Section>
+      </AnimatedSection>
 
       {/* Transparência */}
-      <Section id="transparencia" className="bg-gradient-to-b from-background via-card/30 to-background">
+      <AnimatedSection id="transparencia">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-8 md:mb-10">
-            Transparência
+            {t('transparency.title')}
           </h2>
-          <p className="text-muted-foreground leading-relaxed mb-8">
-            A TOOGAIN produz educação e sistemas de apoio à tomada de decisão. Não realizamos gestão de recursos, e não oferecemos recomendação individual de investimento. Responsabilidade, contexto e critério vêm antes de qualquer ferramenta.
-          </p>
-          <div className="p-5 bg-card border border-border/50 rounded-xl">
+          <motion.p 
+            className="text-muted-foreground leading-relaxed mb-8"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            {t('transparency.description')}
+          </motion.p>
+          <motion.div 
+            className="p-5 bg-card border border-border/50 rounded-xl"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
             <p className="text-xs text-muted-foreground/70">
-              <strong className="text-muted-foreground">Aviso de responsabilidade:</strong> Conteúdos e materiais têm finalidade educacional. Decisões financeiras envolvem riscos e devem considerar o perfil e objetivos de cada pessoa.
+              <strong className="text-muted-foreground">{t('transparency.disclaimer.title')}</strong> {t('transparency.disclaimer.text')}
             </p>
-          </div>
+          </motion.div>
         </div>
-      </Section>
+      </AnimatedSection>
 
       {/* FAQ */}
-      <Section id="faq">
+      <AnimatedSection id="faq" className="bg-gradient-to-b from-background via-card/30 to-background">
         <div className="max-w-2xl mx-auto">
           <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-10 md:mb-12 text-center">
-            Perguntas frequentes
+            {t('faq.title')}
           </h2>
-          <FAQAccordion />
+          <FAQAccordionAnimated />
         </div>
-      </Section>
+      </AnimatedSection>
 
       <Footer />
     </div>

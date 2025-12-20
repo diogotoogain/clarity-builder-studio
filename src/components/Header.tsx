@@ -1,18 +1,23 @@
 import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-
-const navItems = [
-  { label: 'Manifesto', href: '#manifesto' },
-  { label: 'Ecossistema', href: '#ecossistema' },
-  { label: 'Como Atuamos', href: '#como-atuamos' },
-  { label: 'Princípios', href: '#principios' },
-  { label: 'Transparência', href: '#transparencia' },
-  { label: 'FAQ', href: '#faq' },
-];
+import { useI18n } from '@/lib/i18n';
+import LanguageToggle from './LanguageToggle';
 
 const Header = () => {
+  const { t } = useI18n();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const navItems = [
+    { label: t('nav.manifesto'), href: '#manifesto' },
+    { label: t('nav.ecosystem'), href: '#ecossistema' },
+    { label: t('nav.howWeWork'), href: '#como-atuamos' },
+    { label: t('nav.timeline'), href: '#timeline' },
+    { label: t('nav.principles'), href: '#principios' },
+    { label: t('nav.transparency'), href: '#transparencia' },
+    { label: t('nav.faq'), href: '#faq' },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,7 +36,10 @@ const Header = () => {
   };
 
   return (
-    <header
+    <motion.header
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled ? 'glass border-b border-border/30' : 'bg-transparent'
       }`}
@@ -39,21 +47,23 @@ const Header = () => {
       <div className="container mx-auto">
         <nav className="flex items-center justify-between h-16 md:h-18">
           {/* Wordmark */}
-          <a
+          <motion.a
             href="#"
             className="font-heading font-bold text-xl tracking-tight text-foreground hover:text-primary transition-colors"
             onClick={(e) => {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
             TOOGAIN
-          </a>
+          </motion.a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-1">
-            {navItems.map((item) => (
-              <a
+          <div className="hidden lg:flex items-center gap-1">
+            {navItems.map((item, index) => (
+              <motion.a
                 key={item.href}
                 href={item.href}
                 onClick={(e) => {
@@ -61,44 +71,66 @@ const Header = () => {
                   handleNavClick(item.href);
                 }}
                 className="px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-secondary/50"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.05 + 0.3 }}
+                whileHover={{ y: -2 }}
               >
                 {item.label}
-              </a>
+              </motion.a>
             ))}
+            <div className="ml-2">
+              <LanguageToggle />
+            </div>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden p-2 text-muted-foreground hover:text-foreground transition-colors"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            aria-label={isMobileMenuOpen ? 'Fechar menu' : 'Abrir menu'}
-          >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* Mobile: Language Toggle + Menu Button */}
+          <div className="lg:hidden flex items-center gap-2">
+            <LanguageToggle />
+            <motion.button
+              className="p-2 text-muted-foreground hover:text-foreground transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label={isMobileMenuOpen ? 'Fechar menu' : 'Abrir menu'}
+              whileTap={{ scale: 0.9 }}
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </motion.button>
+          </div>
         </nav>
 
         {/* Mobile Navigation */}
-        {isMobileMenuOpen && (
-          <div className="md:hidden glass border-t border-border/30 animate-fade-in">
-            <div className="py-4 space-y-1">
-              {navItems.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    handleNavClick(item.href);
-                  }}
-                  className="block px-4 py-3 text-muted-foreground hover:text-foreground hover:bg-secondary/50 transition-colors rounded-lg mx-2"
-                >
-                  {item.label}
-                </a>
-              ))}
-            </div>
-          </div>
-        )}
+        <AnimatePresence>
+          {isMobileMenuOpen && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.3 }}
+              className="lg:hidden glass border-t border-border/30 overflow-hidden"
+            >
+              <div className="py-4 space-y-1">
+                {navItems.map((item, index) => (
+                  <motion.a
+                    key={item.href}
+                    href={item.href}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleNavClick(item.href);
+                    }}
+                    className="block px-4 py-3 text-muted-foreground hover:text-foreground hover:bg-secondary/50 transition-colors rounded-lg mx-2"
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.05 }}
+                  >
+                    {item.label}
+                  </motion.a>
+                ))}
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
-    </header>
+    </motion.header>
   );
 };
 
