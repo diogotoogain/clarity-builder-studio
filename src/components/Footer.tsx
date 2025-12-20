@@ -1,5 +1,6 @@
 import { useI18n } from '@/lib/i18n';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const { t } = useI18n();
@@ -20,19 +21,24 @@ const Footer = () => {
           
           {/* Legal Links */}
           <div className="flex justify-center gap-6 mb-6">
-            <a 
-              href="#termos" 
+            <Link 
+              to="/termos" 
               className="text-xs text-muted-foreground hover:text-foreground transition-colors"
             >
               {t('footer.terms')}
-            </a>
-            <a 
-              href="#privacidade" 
+            </Link>
+            <Link 
+              to="/privacidade" 
               className="text-xs text-muted-foreground hover:text-foreground transition-colors"
             >
               {t('footer.privacy')}
-            </a>
+            </Link>
           </div>
+          
+          {/* CNPJ */}
+          <p className="text-xs text-muted-foreground/60 mb-4">
+            CNPJ: 55.560.597/0001-10
+          </p>
           
           <p className="text-sm text-muted-foreground mb-4">
             {t('footer.copyright')}
