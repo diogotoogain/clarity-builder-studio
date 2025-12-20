@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import { useI18n } from '@/lib/i18n';
 import LanguageToggle from './LanguageToggle';
 
@@ -14,13 +13,11 @@ const Header = () => {
     { label: t('nav.manifesto'), href: '#manifesto' },
     { label: t('nav.ecosystem'), href: '#ecossistema' },
     { label: t('nav.howWeWork'), href: '#como-atuamos' },
-    { label: t('nav.timeline'), href: '#timeline' },
+    { label: 'Jornada', href: '#jornada' },
     { label: t('nav.principles'), href: '#principios' },
     { label: t('nav.transparency'), href: '#transparencia' },
     { label: t('nav.faq'), href: '#faq' },
   ];
-
-  const aboutLink = { label: 'Sobre', href: '/sobre' };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -82,18 +79,6 @@ const Header = () => {
                 {item.label}
               </motion.a>
             ))}
-            <motion.div
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: navItems.length * 0.05 + 0.3 }}
-            >
-              <Link
-                to={aboutLink.href}
-                className="px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-secondary/50"
-              >
-                {aboutLink.label}
-              </Link>
-            </motion.div>
             <div className="ml-2">
               <LanguageToggle />
             </div>
@@ -140,19 +125,6 @@ const Header = () => {
                     {item.label}
                   </motion.a>
                 ))}
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: navItems.length * 0.05 }}
-                >
-                  <Link
-                    to={aboutLink.href}
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="block px-4 py-3 text-muted-foreground hover:text-foreground hover:bg-secondary/50 transition-colors rounded-lg mx-2"
-                  >
-                    {aboutLink.label}
-                  </Link>
-                </motion.div>
               </div>
             </motion.div>
           )}

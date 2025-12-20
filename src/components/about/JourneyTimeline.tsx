@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { MapPin, AlertCircle, Lightbulb, Target, Heart, Rocket, Globe, TrendingUp } from 'lucide-react';
+import { MapPin, Lightbulb, Target, Heart, Rocket, Globe, TrendingUp } from 'lucide-react';
 
 const journeySteps = [
   {
@@ -12,43 +12,37 @@ const journeySteps = [
   },
   {
     id: 2,
-    title: 'A crise (2019/2020)',
-    icon: AlertCircle,
-    text: 'Na pandemia, provas e concursos pararam. A renda caiu. E o filho recém-nascido, Otto, trouxe um novo tipo de responsabilidade. Foi o período que testou tudo — e revelou o que importava.',
-  },
-  {
-    id: 3,
     title: 'A descoberta',
     icon: Lightbulb,
     text: 'Buscando alternativas, Diogo enxergou a bolsa de valores com olhos diferentes: matemática e estatística, antes usadas na teoria, agora viravam ferramenta prática.',
   },
   {
-    id: 4,
+    id: 3,
     title: 'A diferença',
     icon: Target,
     text: 'Ele não entrou como "palpiteiro" nem como analista tradicional. Entrou como cientista: padrões, hipóteses, risco medido, processo repetível.',
   },
   {
-    id: 5,
+    id: 4,
     title: 'O propósito',
     icon: Heart,
     text: 'Por um tempo, viver só dos próprios rendimentos era possível. Mas não era suficiente. Diogo voltou ao que sempre o definiu: ensinar — agora com uma nova ferramenta.',
   },
   {
-    id: 6,
+    id: 5,
     title: 'Nasce a Toogain (jun/2024)',
     icon: Rocket,
     text: 'Toogain nasce do sonho de compartilhar ganhos com alunos. TOO = também. GAIN = lucro no mercado. "Nós ganhamos e você também."',
   },
   {
-    id: 7,
-    title: 'Escala',
+    id: 6,
+    title: 'Escala (2024)',
     icon: Globe,
-    text: 'Hoje, a Toogain registra 13.305 alunos ativos em 33 países. Quando método encontra propósito, o impacto atravessa fronteiras.',
+    text: 'Em poucos meses, a Toogain alcança 13.305 alunos ativos em 33 países. Quando método encontra propósito, o impacto atravessa fronteiras.',
   },
   {
-    id: 8,
-    title: 'O futuro',
+    id: 7,
+    title: 'O futuro (2025+)',
     icon: TrendingUp,
     text: 'Grupo Toogain: Money Academy (educação), Intelligence (automação), BTC Signature (2026) — expansão global, com foco em excelência.',
   },

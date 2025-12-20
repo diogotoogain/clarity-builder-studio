@@ -5,7 +5,12 @@ import FAQAccordionAnimated from '@/components/FAQAccordionAnimated';
 import EcosystemCard from '@/components/EcosystemCard';
 import AnimatedCard from '@/components/AnimatedCard';
 import AnimatedCycleStep from '@/components/AnimatedCycleStep';
-import Timeline from '@/components/Timeline';
+import JourneyTimeline from '@/components/about/JourneyTimeline';
+import WhatIsToogain from '@/components/about/WhatIsToogain';
+import GroupStructure from '@/components/about/GroupStructure';
+import CIPDStats from '@/components/about/CIPDStats';
+import FamilySection from '@/components/about/FamilySection';
+import GlobalCommunity from '@/components/about/GlobalCommunity';
 import Footer from '@/components/Footer';
 import { BookOpen, Lightbulb, Settings, TrendingUp, Shield, Sparkles, Clock } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
@@ -314,18 +319,23 @@ const Index = () => {
         </div>
       </AnimatedSection>
 
-      {/* Timeline */}
-      <AnimatedSection id="timeline">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-4 text-center">
-            {t('timeline.title')}
-          </h2>
-          <p className="text-muted-foreground text-center mb-12 md:mb-16 max-w-2xl mx-auto">
-            {t('timeline.subtitle')}
-          </p>
-          <Timeline />
-        </div>
-      </AnimatedSection>
+      {/* Sobre - Jornada */}
+      <JourneyTimeline />
+
+      {/* Sobre - O que é Toogain */}
+      <WhatIsToogain />
+
+      {/* Sobre - Estrutura do Grupo */}
+      <GroupStructure />
+
+      {/* Sobre - CIPD Stats */}
+      <CIPDStats />
+
+      {/* Sobre - Família */}
+      <FamilySection />
+
+      {/* Sobre - Comunidade Global */}
+      <GlobalCommunity />
 
       {/* Diferenciais */}
       <AnimatedSection id="diferenciais" className="bg-gradient-to-b from-background via-card/30 to-background">
