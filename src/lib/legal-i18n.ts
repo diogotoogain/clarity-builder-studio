@@ -53,7 +53,6 @@ TOOGAIN Intelligence:
 • Processos replicáveis e metodologias`,
 
   'terms.section5.title': '5. Disclaimer Financeiro',
-  'terms.section5.isHighlight': true,
   'terms.section5.content': `ATENÇÃO — LEIA COM CUIDADO:
 
 A TOOGAIN NÃO realiza gestão de recursos de terceiros.
@@ -276,7 +275,6 @@ Os dados pessoais são mantidos pelo período necessário para cumprir as finali
 • Dados de marketing: Até a revogação do consentimento`,
 
   'privacy.section8.title': '8. Direitos do Titular (Art. 18 LGPD)',
-  'privacy.section8.isHighlight': true,
   'privacy.section8.content': `O Titular dos dados pessoais tem direito a:
 
 • Confirmação de tratamento: Saber se seus dados são tratados.
@@ -416,7 +414,6 @@ TOOGAIN Intelligence:
 • Replicable processes and methodologies`,
 
   'terms.section5.title': '5. Financial Disclaimer',
-  'terms.section5.isHighlight': true,
   'terms.section5.content': `ATTENTION — READ CAREFULLY:
 
 TOOGAIN DOES NOT manage third-party funds.
@@ -639,7 +636,6 @@ Personal data is kept for the period necessary to fulfill the described purposes
 • Marketing data: Until consent revocation`,
 
   'privacy.section8.title': '8. Data Subject Rights (Art. 18 LGPD)',
-  'privacy.section8.isHighlight': true,
   'privacy.section8.content': `The Data Subject has the right to:
 
 • Confirmation of processing: Know if their data is being processed.
@@ -779,7 +775,6 @@ TOOGAIN Intelligence:
 • Procesos replicables y metodologías`,
 
   'terms.section5.title': '5. Aviso Legal Financiero',
-  'terms.section5.isHighlight': true,
   'terms.section5.content': `ATENCIÓN — LEA CUIDADOSAMENTE:
 
 TOOGAIN NO gestiona recursos de terceros.
@@ -1002,7 +997,6 @@ Los datos personales se mantienen por el período necesario para cumplir las fin
 • Datos de marketing: Hasta la revocación del consentimiento`,
 
   'privacy.section8.title': '8. Derechos del Titular (Art. 18 LGPD)',
-  'privacy.section8.isHighlight': true,
   'privacy.section8.content': `El Titular de los datos personales tiene derecho a:
 
 • Confirmación de tratamiento: Saber si sus datos son tratados.
