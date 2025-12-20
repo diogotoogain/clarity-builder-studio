@@ -2,56 +2,21 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { MapPin, Lightbulb, Target, Heart, Rocket, Globe, TrendingUp } from 'lucide-react';
+import { useI18n } from '@/lib/i18n';
 
-const journeySteps = [
-  {
-    id: 1,
-    title: 'Origem',
-    icon: MapPin,
-    text: 'São Gonçalo (RJ). Classe C. Um começo comum — e uma disciplina incomum. Diogo e Nathalya aprenderam cedo a extrair valor do que tinham: estudo, consistência e visão de longo prazo.',
-  },
-  {
-    id: 2,
-    title: 'A descoberta',
-    icon: Lightbulb,
-    text: 'Buscando alternativas, Diogo enxergou a bolsa de valores com olhos diferentes: matemática e estatística, antes usadas na teoria, agora viravam ferramenta prática.',
-  },
-  {
-    id: 3,
-    title: 'A diferença',
-    icon: Target,
-    text: 'Ele não entrou como "palpiteiro" nem como analista tradicional. Entrou como cientista: padrões, hipóteses, risco medido, processo repetível.',
-  },
-  {
-    id: 4,
-    title: 'O propósito',
-    icon: Heart,
-    text: 'Por um tempo, viver só dos próprios rendimentos era possível. Mas não era suficiente. Diogo voltou ao que sempre o definiu: ensinar — agora com uma nova ferramenta.',
-  },
-  {
-    id: 5,
-    title: 'Nasce a Toogain (jun/2024)',
-    icon: Rocket,
-    text: 'Toogain nasce do sonho de compartilhar ganhos com alunos. TOO = também. GAIN = lucro no mercado. "Nós ganhamos e você também."',
-  },
-  {
-    id: 6,
-    title: 'Escala (2024)',
-    icon: Globe,
-    text: 'Em poucos meses, a Toogain alcança 13.305 alunos ativos em 33 países. Quando método encontra propósito, o impacto atravessa fronteiras.',
-  },
-  {
-    id: 7,
-    title: 'O futuro (2025+)',
-    icon: TrendingUp,
-    text: 'Grupo Toogain: Money Academy (educação), Intelligence (automação), BTC Signature (2026) — expansão global, com foco em excelência.',
-  },
-];
-
-const TimelineItem = ({ step, index }: { step: typeof journeySteps[0]; index: number }) => {
+const TimelineItem = ({ 
+  step, 
+  index,
+  totalSteps
+}: { 
+  step: { id: number; titleKey: string; textKey: string; icon: React.ElementType }; 
+  index: number;
+  totalSteps: number;
+}) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
   const Icon = step.icon;
+  const { t } = useI18n();
 
   return (
     <motion.div
@@ -66,7 +31,7 @@ const TimelineItem = ({ step, index }: { step: typeof journeySteps[0]; index: nu
         <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-secondary border border-border flex items-center justify-center shrink-0 z-10">
           <Icon className="w-5 h-5 md:w-6 md:h-6 text-primary" />
         </div>
-        {index < journeySteps.length - 1 && (
+        {index < totalSteps - 1 && (
           <motion.div
             className="absolute top-12 w-0.5 bg-gradient-to-b from-primary/50 to-border"
             style={{ height: 'calc(100% - 3rem)' }}
@@ -80,10 +45,10 @@ const TimelineItem = ({ step, index }: { step: typeof journeySteps[0]; index: nu
       {/* Content */}
       <div className="flex-1 pt-1">
         <h3 className="text-lg md:text-xl font-heading font-semibold text-foreground mb-2">
-          {step.title}
+          {t(step.titleKey)}
         </h3>
         <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-          {step.text}
+          {t(step.textKey)}
         </p>
       </div>
     </motion.div>
@@ -91,6 +56,53 @@ const TimelineItem = ({ step, index }: { step: typeof journeySteps[0]; index: nu
 };
 
 const JourneyTimeline = () => {
+  const { t } = useI18n();
+
+  const journeySteps = [
+    {
+      id: 1,
+      titleKey: 'journey.origin.title',
+      textKey: 'journey.origin.text',
+      icon: MapPin,
+    },
+    {
+      id: 2,
+      titleKey: 'journey.discovery.title',
+      textKey: 'journey.discovery.text',
+      icon: Lightbulb,
+    },
+    {
+      id: 3,
+      titleKey: 'journey.difference.title',
+      textKey: 'journey.difference.text',
+      icon: Target,
+    },
+    {
+      id: 4,
+      titleKey: 'journey.purpose.title',
+      textKey: 'journey.purpose.text',
+      icon: Heart,
+    },
+    {
+      id: 5,
+      titleKey: 'journey.birth.title',
+      textKey: 'journey.birth.text',
+      icon: Rocket,
+    },
+    {
+      id: 6,
+      titleKey: 'journey.scale.title',
+      textKey: 'journey.scale.text',
+      icon: Globe,
+    },
+    {
+      id: 7,
+      titleKey: 'journey.future.title',
+      textKey: 'journey.future.text',
+      icon: TrendingUp,
+    },
+  ];
+
   return (
     <section id="jornada" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-5">
@@ -102,16 +114,21 @@ const JourneyTimeline = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-foreground mb-4">
-            A Jornada do Herói
+            {t('journey.title')}
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Da origem humilde à escala global — uma história construída com método, disciplina e propósito.
+            {t('journey.subtitle')}
           </p>
         </motion.div>
 
         <div className="max-w-2xl mx-auto">
           {journeySteps.map((step, index) => (
-            <TimelineItem key={step.id} step={step} index={index} />
+            <TimelineItem 
+              key={step.id} 
+              step={step} 
+              index={index} 
+              totalSteps={journeySteps.length}
+            />
           ))}
         </div>
       </div>

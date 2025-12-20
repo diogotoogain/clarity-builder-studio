@@ -1,16 +1,7 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react';
 import { TrendingUp, Activity, CheckCircle, XCircle, Target, Zap, Shield } from 'lucide-react';
-
-const stats = [
-  { label: 'Pontos', value: 25140, icon: TrendingUp, suffix: '' },
-  { label: 'Operações', value: 447, icon: Activity, suffix: '' },
-  { label: 'Gains', value: 323, icon: CheckCircle, suffix: '' },
-  { label: 'Losses', value: 124, icon: XCircle, suffix: '' },
-  { label: 'Assertividade', value: 72.26, icon: Target, suffix: '%', decimals: 2 },
-  { label: 'Maior sequência vencedora', value: 16, icon: Zap, suffix: '' },
-  { label: 'Maior sequência perdedora', value: 4, icon: Shield, suffix: '' },
-];
+import { useI18n } from '@/lib/i18n';
 
 const AnimatedCounter = ({ 
   value, 
@@ -60,6 +51,17 @@ const AnimatedCounter = ({
 const CIPDStats = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const { t } = useI18n();
+
+  const stats = [
+    { labelKey: 'cipd.points', value: 25140, icon: TrendingUp, suffix: '' },
+    { labelKey: 'cipd.operations', value: 447, icon: Activity, suffix: '' },
+    { labelKey: 'cipd.gains', value: 323, icon: CheckCircle, suffix: '' },
+    { labelKey: 'cipd.losses', value: 124, icon: XCircle, suffix: '' },
+    { labelKey: 'cipd.accuracy', value: 72.26, icon: Target, suffix: '%', decimals: 2 },
+    { labelKey: 'cipd.winStreak', value: 16, icon: Zap, suffix: '' },
+    { labelKey: 'cipd.loseStreak', value: 4, icon: Shield, suffix: '' },
+  ];
 
   return (
     <section className="py-16 md:py-24 bg-secondary/30">
@@ -72,11 +74,10 @@ const CIPDStats = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-foreground mb-4">
-            Transparência em números
+            {t('cipd.title')}
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto text-sm md:text-base">
-            Processo importa. Gestão importa. Transparência importa. O relatório oficial 
-            dos últimos 12 meses do CIPD registra:
+            {t('cipd.subtitle')}
           </p>
         </motion.div>
 
@@ -86,7 +87,7 @@ const CIPDStats = () => {
             const Icon = stat.icon;
             return (
               <motion.div
-                key={stat.label}
+                key={stat.labelKey}
                 className="bg-card rounded-xl p-4 md:p-5 border border-border/50 text-center"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -102,7 +103,7 @@ const CIPDStats = () => {
                     isInView={isInView}
                   />
                 </div>
-                <p className="text-xs text-muted-foreground">{stat.label}</p>
+                <p className="text-xs text-muted-foreground">{t(stat.labelKey)}</p>
               </motion.div>
             );
           })}
@@ -114,7 +115,7 @@ const CIPDStats = () => {
             const Icon = stat.icon;
             return (
               <motion.div
-                key={stat.label}
+                key={stat.labelKey}
                 className="bg-card/50 rounded-lg p-3 border border-border/30 text-center"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -130,7 +131,7 @@ const CIPDStats = () => {
                     isInView={isInView}
                   />
                 </div>
-                <p className="text-[10px] md:text-xs text-muted-foreground leading-tight">{stat.label}</p>
+                <p className="text-[10px] md:text-xs text-muted-foreground leading-tight">{t(stat.labelKey)}</p>
               </motion.div>
             );
           })}
@@ -146,8 +147,8 @@ const CIPDStats = () => {
         >
           <div className="bg-card rounded-xl p-5 border border-border/50">
             <p className="text-sm text-muted-foreground text-center leading-relaxed">
-              <span className="text-primary font-medium">Gerenciamento anti-quebra:</span>{' '}
-              foco em preservar consistência no médio e longo prazo.
+              <span className="text-primary font-medium">{t('cipd.management')}</span>{' '}
+              {t('cipd.managementText')}
             </p>
           </div>
         </motion.div>
@@ -167,13 +168,13 @@ const CIPDStats = () => {
                 className="w-full h-full"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
-                title="Bastidores: registro do relatório em áudio para alunos"
+                title={t('cipd.videoCaption')}
                 loading="lazy"
               />
             </div>
             <div className="p-4">
               <p className="text-xs text-muted-foreground text-center">
-                Bastidores: Diogo registrando o relatório com transparência para os alunos.
+                {t('cipd.videoCaption')}
               </p>
             </div>
           </div>

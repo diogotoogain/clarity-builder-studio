@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion';
 import fotoFamilia from '@/assets/foto-familia.jpeg';
 import fotoRiad from '@/assets/foto-riad.jpeg';
+import { useI18n } from '@/lib/i18n';
 
 const FamilySection = () => {
+  const { t } = useI18n();
+
   return (
     <section className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-5">
@@ -16,7 +19,7 @@ const FamilySection = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-foreground mb-4">
-              A base é humana
+              {t('family.title')}
             </h2>
           </motion.div>
 
@@ -31,13 +34,13 @@ const FamilySection = () => {
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                 <img
                   src={fotoFamilia}
-                  alt="Diogo, Nathalya e Otto — família unida"
+                  alt={t('family.caption')}
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
               </div>
               <p className="mt-3 text-xs text-muted-foreground text-center">
-                Diogo, Nathalya e Otto
+                {t('family.caption')}
               </p>
             </motion.div>
 
@@ -50,12 +53,10 @@ const FamilySection = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
             >
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                A Toogain nasce em 2024, mas carrega uma década de construção: Diogo e Nathalya 
-                empreendem juntos desde 2014.
+                {t('family.text1')}
               </p>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                Família, responsabilidade e presença não são "detalhes" — são a régua do que 
-                vale a pena construir.
+                {t('family.text2')}
               </p>
             </motion.div>
           </div>
@@ -74,15 +75,13 @@ const FamilySection = () => {
               {/* Text */}
               <div className="order-2 md:order-1">
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-foreground mb-4">
-                  Visão que atravessa fronteiras
+                  {t('family.vision.title')}
                 </h3>
                 <p className="text-sm md:text-base text-muted-foreground leading-relaxed mb-4">
-                  Em uma experiência de 21 dias em Riad (Arábia Saudita), Diogo reforçou uma crença 
-                  simples: confiança se constrói com diligência — observar, estudar, validar, e só 
-                  então decidir.
+                  {t('family.vision.text1')}
                 </p>
                 <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                  Essa mentalidade guia a Toogain: método antes do ruído.
+                  {t('family.vision.text2')}
                 </p>
               </div>
 
@@ -91,13 +90,13 @@ const FamilySection = () => {
                 <div className="aspect-[3/4] rounded-xl overflow-hidden shadow-md">
                   <img
                     src={fotoRiad}
-                    alt="Diogo em encontro internacional em Riad, demonstrando visão global"
+                    alt={t('family.vision.caption')}
                     className="w-full h-full object-cover object-top"
                     loading="lazy"
                   />
                 </div>
                 <p className="mt-2 text-[10px] text-muted-foreground text-center">
-                  Riad, Arábia Saudita — disciplina e visão global
+                  {t('family.vision.caption')}
                 </p>
               </div>
             </div>
