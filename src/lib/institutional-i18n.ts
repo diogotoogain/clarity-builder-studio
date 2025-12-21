@@ -34,7 +34,7 @@ export const institutionalTranslationsPT = {
   'journey.phase4.text2': 'Na varanda, lembrou da infância. Sua mãe fazendo faxina, ouvindo um disco de vinil dos Bee Gees na radiola herdada da avó. A música: Massachusetts.',
   'journey.phase4.text3': 'Pesquisou a música no Google. O segundo resultado mudou sua vida:',
   'journey.phase4.quote': '"Conheça a história do jovem de 14 anos que nasceu em Massachusetts, saiu de casa com 5 dólares, transformou em mais de 100 milhões de dólares e se tornou o homem mais rico da sua época."',
-  'journey.phase4.text4': 'O nome: Jesse Livermore. Nascido em 1877. Matemático. Estatístico.',
+  'journey.phase4.text4': 'O nome: Jesse Livermore. Nascido em 1877. Conhecido como o mestre da especulação e da psicologia de mercado — um dos maiores players da história financeira.',
   'journey.phase4.text5': 'Diogo leu o livro dele 10 vezes — traduzindo palavra por palavra do inglês, que não dominava. Juntou aquele conhecimento com tudo que sabia de matemática e estatística.',
   'journey.phase4.text6': 'E começou a testar.',
   
@@ -144,7 +144,7 @@ export const institutionalTranslationsEN = {
   'journey.phase4.text2': "On the porch, he remembered his childhood. His mother cleaning, listening to a Bee Gees vinyl record on the radio inherited from his grandmother. The song: Massachusetts.",
   'journey.phase4.text3': 'He searched for the song on Google. The second result changed his life:',
   'journey.phase4.quote': '"Meet the story of the 14-year-old who was born in Massachusetts, left home with 5 dollars, turned it into more than 100 million dollars, and became the richest man of his time."',
-  'journey.phase4.text4': 'The name: Jesse Livermore. Born in 1877. Mathematician. Statistician.',
+  'journey.phase4.text4': 'The name: Jesse Livermore. Born in 1877. Known as the master of speculation and market psychology — one of the greatest players in financial history.',
   'journey.phase4.text5': "Diogo read his book 10 times — translating word by word from English, which he didn't master. He combined that knowledge with everything he knew about mathematics and statistics.",
   'journey.phase4.text6': 'And he started testing.',
   
@@ -254,7 +254,7 @@ export const institutionalTranslationsES = {
   'journey.phase4.text2': 'En la terraza, recordó su infancia. Su madre limpiando, escuchando un disco de vinilo de los Bee Gees en la radio heredada de su abuela. La canción: Massachusetts.',
   'journey.phase4.text3': 'Buscó la canción en Google. El segundo resultado cambió su vida:',
   'journey.phase4.quote': '"Conoce la historia del joven de 14 años que nació en Massachusetts, salió de casa con 5 dólares, los transformó en más de 100 millones de dólares y se convirtió en el hombre más rico de su época."',
-  'journey.phase4.text4': 'El nombre: Jesse Livermore. Nacido en 1877. Matemático. Estadístico.',
+  'journey.phase4.text4': 'El nombre: Jesse Livermore. Nacido en 1877. Conocido como el maestro de la especulación y la psicología del mercado — uno de los mayores jugadores de la historia financiera.',
   'journey.phase4.text5': 'Diogo leyó su libro 10 veces — traduciendo palabra por palabra del inglés, que no dominaba. Unió ese conocimiento con todo lo que sabía de matemáticas y estadística.',
   'journey.phase4.text6': 'Y comenzó a probar.',
   
