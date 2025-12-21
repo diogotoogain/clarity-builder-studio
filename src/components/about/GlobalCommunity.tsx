@@ -91,7 +91,7 @@ const GlobalCommunity = () => {
   const displayedCountries = showAll ? filteredCountries : filteredCountries.slice(0, 8);
 
   return (
-    <section className="py-16 md:py-24 bg-secondary/30 relative overflow-hidden">
+    <section className="py-16 md:py-24 bg-secondary/30 relative overflow-hidden w-full">
       {/* Background map */}
       <div className="absolute inset-0 z-0 opacity-20">
         <img
@@ -102,7 +102,7 @@ const GlobalCommunity = () => {
         />
       </div>
 
-      <div className="container mx-auto px-5 relative z-10">
+      <div className="container mx-auto px-4 relative z-10">
         <motion.div
           ref={ref}
           className="text-center mb-10"

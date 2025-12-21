@@ -57,8 +57,8 @@ const FamilySection = () => {
   };
 
   return (
-    <section id="fundadores" className="py-16 md:py-24 bg-background">
-      <div className="container mx-auto px-5">
+    <section id="fundadores" className="py-16 md:py-24 bg-background overflow-hidden">
+      <div className="container mx-auto px-4">
         {/* Main Family Section */}
         <div className="max-w-4xl mx-auto mb-16">
           <motion.div

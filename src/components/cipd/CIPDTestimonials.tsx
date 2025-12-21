@@ -244,7 +244,7 @@ const CIPDTestimonials = () => {
   };
 
   return (
-    <section id="depoimentos-cipd" className="py-20 md:py-28 relative">
+    <section id="depoimentos-cipd" className="py-20 md:py-28 relative overflow-hidden">
       {/* Background glow */}
       <div className="absolute inset-0 bg-hero-glow opacity-30 pointer-events-none" />
       

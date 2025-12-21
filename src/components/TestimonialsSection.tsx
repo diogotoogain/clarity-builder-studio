@@ -248,7 +248,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section id="depoimentos" className="py-16 md:py-24 bg-gradient-to-b from-background via-card/20 to-background">
+    <section id="depoimentos" className="py-16 md:py-24 bg-gradient-to-b from-background via-card/20 to-background overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div

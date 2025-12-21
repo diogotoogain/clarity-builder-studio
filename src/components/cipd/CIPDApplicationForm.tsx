@@ -103,7 +103,7 @@ const CIPDApplicationForm = () => {
   }
 
   return (
-    <section id="aplicar" className="py-20 md:py-28 relative">
+    <section id="aplicar" className="py-20 md:py-28 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-card/30 to-background pointer-events-none" />
       
       <div className="container mx-auto px-4 relative z-10">

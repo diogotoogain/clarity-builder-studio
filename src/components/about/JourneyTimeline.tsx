@@ -104,8 +104,8 @@ const JourneyTimeline = () => {
   ];
 
   return (
-    <section id="jornada" className="py-16 md:py-24 bg-background">
-      <div className="container mx-auto px-5">
+    <section id="jornada" className="py-16 md:py-24 bg-background overflow-hidden">
+      <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-12"
           initial={{ opacity: 0, y: 20 }}
