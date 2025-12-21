@@ -28,9 +28,9 @@ const AnimatedSection = ({
         delay,
         ease: [0.25, 0.46, 0.45, 0.94]
       }}
-      className={cn('py-16 md:py-24', className)}
+      className={cn('py-16 md:py-24 overflow-hidden', className)}
     >
-      <div className={cn('container mx-auto', containerClassName)}>
+      <div className={cn('container mx-auto px-4', containerClassName)}>
         {children}
       </div>
     </motion.section>

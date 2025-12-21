@@ -73,7 +73,7 @@ const Header = () => {
           transition={{ duration: 0.1 }}
         />
 
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <nav className="flex items-center justify-between h-16 md:h-18">
             {/* Wordmark */}
             <motion.a

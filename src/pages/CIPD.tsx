@@ -67,11 +67,11 @@ const CIPD = () => {
         <link rel="canonical" href="https://toogain.com/cipd" />
       </Helmet>
 
-      <div className="min-h-screen bg-background text-foreground">
+      <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
         <Header />
 
         {/* BLOCK 1: Hero */}
-        <section className="relative min-h-[90vh] flex items-center justify-center pt-20 pb-16 overflow-hidden">
+        <section className="relative min-h-[90vh] flex items-center justify-center pt-20 pb-16 overflow-hidden w-full">
           {/* Background effects */}
           <div className="absolute inset-0 bg-hero-glow pointer-events-none" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background pointer-events-none" />
@@ -146,7 +146,7 @@ const CIPD = () => {
         </section>
 
         {/* BLOCK 2: What is CIPD */}
-        <section id="o-que-e" className="py-20 md:py-28 relative">
+        <section id="o-que-e" className="py-20 md:py-28 relative overflow-hidden">
           <div className="container mx-auto px-4">
             <motion.div
               className="text-center mb-12"
@@ -203,7 +203,7 @@ const CIPD = () => {
         </section>
 
         {/* BLOCK 3: Metrics */}
-        <section className="py-20 md:py-28 relative bg-gradient-to-b from-background via-card/20 to-background">
+        <section className="py-20 md:py-28 relative bg-gradient-to-b from-background via-card/20 to-background overflow-hidden">
           <div className="container mx-auto px-4">
             <motion.div
               className="text-center mb-12"
@@ -264,7 +264,7 @@ const CIPD = () => {
         <CIPDTestimonials />
 
         {/* BLOCK 5: For Who / Not For Who */}
-        <section className="py-20 md:py-28 relative">
+        <section className="py-20 md:py-28 relative overflow-hidden">
           <div className="container mx-auto px-4">
             <motion.div
               className="text-center mb-12"
@@ -360,7 +360,7 @@ const CIPD = () => {
         <CIPDFAQ />
 
         {/* Final CTA */}
-        <section className="py-16 md:py-24 relative">
+        <section className="py-16 md:py-24 relative overflow-hidden">
           <div className="absolute inset-0 bg-hero-glow opacity-50 pointer-events-none" />
           
           <div className="container mx-auto px-4 relative z-10">

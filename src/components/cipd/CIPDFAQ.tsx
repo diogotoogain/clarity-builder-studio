@@ -21,7 +21,7 @@ const CIPDFAQ = () => {
   const { t } = useI18n();
 
   return (
-    <section id="faq-cipd" className="py-20 md:py-28 relative">
+    <section id="faq-cipd" className="py-20 md:py-28 relative overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div

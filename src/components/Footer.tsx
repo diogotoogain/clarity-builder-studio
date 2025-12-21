@@ -12,7 +12,7 @@ const Footer = () => {
       viewport={{ once: true }}
       className="border-t border-border/30 py-12 md:py-16"
     >
-      <div className="container mx-auto px-5">
+      <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <p className="font-heading font-bold text-xl text-foreground mb-2">TOOGAIN</p>
           <p className="text-sm text-muted-foreground mb-6">

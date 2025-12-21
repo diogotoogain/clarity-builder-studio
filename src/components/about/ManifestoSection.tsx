@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 
 const ManifestoSection = () => {
   return (
-    <section className="py-16 md:py-24 bg-background">
-      <div className="container mx-auto px-5">
+    <section className="py-16 md:py-24 bg-background overflow-hidden">
+      <div className="container mx-auto px-4">
         <motion.div
           className="max-w-3xl mx-auto text-center"
           initial={{ opacity: 0, y: 30 }}
