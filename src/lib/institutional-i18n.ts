@@ -94,7 +94,7 @@ export const institutionalTranslationsPT = {
   'family.caption2': 'Momentos leves, construção diária.',
   'family.caption3': 'Celebrar fases sem perder a direção.',
   'family.locationCaption': 'Suíte Royal do Palácio Tangará, São Paulo.',
-  'family.diogo.role': 'Fundador e Professor',
+  'family.diogo.role': 'Matemático, Estatístico, Professor e Fundador da Toogain',
   'family.nathalya.role': 'Cofundadora e Eng. de Produção',
   
   // Dream Section - 1001
@@ -204,7 +204,7 @@ export const institutionalTranslationsEN = {
   'family.caption2': 'Light moments, daily building.',
   'family.caption3': 'Celebrating phases without losing direction.',
   'family.locationCaption': 'Royal Suite at Palácio Tangará, São Paulo.',
-  'family.diogo.role': 'Founder and Professor',
+  'family.diogo.role': 'Mathematician, Statistician, Professor and Founder of Toogain',
   'family.nathalya.role': 'Co-founder and Production Eng.',
   
   // Dream Section - 1001
@@ -314,7 +314,7 @@ export const institutionalTranslationsES = {
   'family.caption2': 'Momentos ligeros, construcción diaria.',
   'family.caption3': 'Celebrar fases sin perder la dirección.',
   'family.locationCaption': 'Suite Royal del Palácio Tangará, São Paulo.',
-  'family.diogo.role': 'Fundador y Profesor',
+  'family.diogo.role': 'Matemático, Estadístico, Profesor y Fundador de Toogain',
   'family.nathalya.role': 'Cofundadora e Ing. de Producción',
   
   // Dream Section - 1001
