@@ -269,6 +269,7 @@ const translations = {
   en: {
     ...testimonialsTranslationsEN,
     ...legalTranslationsEN,
+    ...cipdTranslationsEN,
     // Navigation
     'nav.manifesto': 'Manifesto',
     'nav.ecosystem': 'Ecosystem',
@@ -522,6 +523,7 @@ const translations = {
   es: {
     ...testimonialsTranslationsES,
     ...legalTranslationsES,
+    ...cipdTranslationsES,
     // Navigation
     'nav.manifesto': 'Manifiesto',
     'nav.ecosystem': 'Ecosistema',
