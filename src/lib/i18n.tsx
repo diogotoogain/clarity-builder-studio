@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, useEffect, ReactNode } from
 import { testimonialsTranslationsPT, testimonialsTranslationsEN, testimonialsTranslationsES } from './testimonials-i18n';
 import { legalTranslationsPT, legalTranslationsEN, legalTranslationsES } from './legal-i18n';
 import { cipdTranslationsPT, cipdTranslationsEN, cipdTranslationsES } from './cipd-i18n';
+import { institutionalTranslationsPT, institutionalTranslationsEN, institutionalTranslationsES } from './institutional-i18n';
 
 type Language = 'pt' | 'en' | 'es';
 
@@ -16,6 +17,7 @@ const translations = {
     ...testimonialsTranslationsPT,
     ...legalTranslationsPT,
     ...cipdTranslationsPT,
+    ...institutionalTranslationsPT,
     // Navigation
     'nav.manifesto': 'Manifesto',
     'nav.ecosystem': 'Ecossistema',
@@ -270,6 +272,7 @@ const translations = {
     ...testimonialsTranslationsEN,
     ...legalTranslationsEN,
     ...cipdTranslationsEN,
+    ...institutionalTranslationsEN,
     // Navigation
     'nav.manifesto': 'Manifesto',
     'nav.ecosystem': 'Ecosystem',
@@ -524,6 +527,7 @@ const translations = {
     ...testimonialsTranslationsES,
     ...legalTranslationsES,
     ...cipdTranslationsES,
+    ...institutionalTranslationsES,
     // Navigation
     'nav.manifesto': 'Manifiesto',
     'nav.ecosystem': 'Ecosistema',
