@@ -359,23 +359,28 @@ const Index = () => {
       {/* Sobre - Estrutura do Grupo */}
       <GroupStructure />
 
-      {/* Tecnologia Aplicada */}
-      <TechnologySection />
-
-      {/* Sobre - CIPD Stats */}
-      <CIPDStats />
+      {/* Como Atuamos - já está acima */}
 
       {/* Visão Global - CR7/Riad */}
       <GlobalVisionSection />
 
-      {/* Depoimentos */}
-      <TestimonialsSection />
-
       {/* Sobre - Família */}
       <FamilySectionNew />
 
+      {/* Tecnologia Aplicada */}
+      <TechnologySection />
+
+      {/* Sobre - CIPD Stats (Transparência em números) */}
+      <CIPDStats />
+
+      {/* Depoimentos */}
+      <TestimonialsSection />
+
       {/* Sobre - Comunidade Global */}
       <GlobalCommunity />
+
+      {/* O Sonho - 1001 */}
+      <DreamSection />
 
       {/* Diferenciais */}
       <AnimatedSection id="diferenciais" className="bg-gradient-to-b from-background via-card/30 to-background">
