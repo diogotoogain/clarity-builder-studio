@@ -5,12 +5,14 @@ import FAQAccordionAnimated from '@/components/FAQAccordionAnimated';
 import EcosystemCard from '@/components/EcosystemCard';
 import AnimatedCard from '@/components/AnimatedCard';
 import AnimatedCycleStep from '@/components/AnimatedCycleStep';
-import JourneyTimeline from '@/components/about/JourneyTimeline';
+import JourneyTimelineNew from '@/components/about/JourneyTimelineNew';
 import WhatIsToogain from '@/components/about/WhatIsToogain';
 import GroupStructure from '@/components/about/GroupStructure';
 import CIPDStats from '@/components/about/CIPDStats';
-import FamilySection from '@/components/about/FamilySection';
+import FamilySectionNew from '@/components/about/FamilySectionNew';
 import GlobalCommunity from '@/components/about/GlobalCommunity';
+import GlobalVisionSection from '@/components/about/GlobalVisionSection';
+import DreamSection from '@/components/about/DreamSection';
 import TechnologySection from '@/components/TechnologySection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import Footer from '@/components/Footer';
@@ -349,7 +351,7 @@ const Index = () => {
       </AnimatedSection>
 
       {/* Sobre - Jornada */}
-      <JourneyTimeline />
+      <JourneyTimelineNew />
 
       {/* Sobre - O que é Toogain */}
       <WhatIsToogain />
@@ -363,11 +365,14 @@ const Index = () => {
       {/* Sobre - CIPD Stats */}
       <CIPDStats />
 
+      {/* Visão Global - CR7/Riad */}
+      <GlobalVisionSection />
+
       {/* Depoimentos */}
       <TestimonialsSection />
 
       {/* Sobre - Família */}
-      <FamilySection />
+      <FamilySectionNew />
 
       {/* Sobre - Comunidade Global */}
       <GlobalCommunity />
