@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { testimonialsTranslationsPT, testimonialsTranslationsEN, testimonialsTranslationsES } from './testimonials-i18n';
 import { legalTranslationsPT, legalTranslationsEN, legalTranslationsES } from './legal-i18n';
+import { cipdTranslationsPT, cipdTranslationsEN, cipdTranslationsES } from './cipd-i18n';
 
 type Language = 'pt' | 'en' | 'es';
 
@@ -14,6 +15,7 @@ const translations = {
   pt: {
     ...testimonialsTranslationsPT,
     ...legalTranslationsPT,
+    ...cipdTranslationsPT,
     // Navigation
     'nav.manifesto': 'Manifesto',
     'nav.ecosystem': 'Ecossistema',
