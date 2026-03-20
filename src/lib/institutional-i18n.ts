@@ -156,6 +156,7 @@ export const institutionalTranslationsEN = {
   'journey.phase5.text3': 'In 9 months, he turned R$600 into more than R$100,000.',
   'journey.phase5.text4': 'Then, R$10,000 into R$1,000,000 in 12 months.',
   'journey.phase5.text5': "The difference? He didn't trade like the losing majority. He didn't look at charts like an analyst. He looked at them like a mathematician. A statistician. Applied science.",
+  'journey.phase5.disclaimer': "Founder's personal results. Past performance is not a guarantee of future results. Variable income operations involve risk of loss.",
   
   // Phase 6: Inspiration
   'journey.phase6.title': 'Jim Simons and the decision to share',
