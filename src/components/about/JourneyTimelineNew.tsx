@@ -144,6 +144,7 @@ const JourneyTimelineNew = () => {
       icon: TrendingUp,
       titleKey: 'journey.phase5.title',
       textKeys: ['journey.phase5.text1', 'journey.phase5.text2', 'journey.phase5.text3', 'journey.phase5.text4', 'journey.phase5.text5'],
+      disclaimerKey: 'journey.phase5.disclaimer',
     },
     {
       phase: 6,
