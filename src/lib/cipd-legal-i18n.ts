@@ -427,7 +427,7 @@ e) Regular exercise of rights in judicial, administrative, or arbitration procee
   'cipdPrivacy.section4.title': '4. Data Sharing',
   'cipdPrivacy.section4.content': `Your data may be shared with:
 
-a) Payment platforms (Hotmart, Mercado Pago, InfinitePay, etc.) for transaction processing;
+a) Payment platforms (Hotmart, Mercado Pago, InfinitePay, Eduzz, GoExplosion, or any others) for transaction processing;
 b) TOOGAIN's accounting and legal advisory services;
 c) Competent authorities, when required by law or court order.
 
