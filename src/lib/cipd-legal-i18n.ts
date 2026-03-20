@@ -461,7 +461,7 @@ Requests should be directed to the email diogo@toogain.com and will be answered 
   'cipdRefund.section1.title': '1. Right of Withdrawal (Art. 49 of CDC)',
   'cipdRefund.section1.content': `1.1. The USER who purchases the CIPD product through a contract made outside the commercial establishment (internet, WhatsApp, phone, or any digital means) has the right to withdraw from the purchase within 7 (seven) calendar days, counted from the date of product receipt (software file and/or access to educational content).
 
-1.2. To exercise the right of withdrawal, the USER must send an express request to the email legalizacao@contabileasy.com.br or via support WhatsApp, within the legal deadline.
+1.2. To exercise the right of withdrawal, the USER must send an express request to the email alunos@toogain.com or via support WhatsApp, within the legal deadline.
 
 1.3. The refund will be made for the full amount paid, through the same payment method used for the purchase, within up to 30 (thirty) business days after request confirmation.
 
