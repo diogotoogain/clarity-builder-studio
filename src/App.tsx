@@ -12,7 +12,7 @@ import CIPDRisk from "./pages/CIPDRisk";
 import CIPDPrivacy from "./pages/CIPDPrivacy";
 import CIPDRefund from "./pages/CIPDRefund";
 import NotFound from "./pages/NotFound";
-import { I18nProvider } from "./lib/i18n";
+import { I18nProvider } from "@/lib/i18n";
 
 const queryClient = new QueryClient();
 
