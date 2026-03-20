@@ -1,3 +1,4 @@
+// i18n provider and translations
 import React, { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
 import { testimonialsTranslationsPT, testimonialsTranslationsEN, testimonialsTranslationsES } from './testimonials-i18n';
 import { legalTranslationsPT, legalTranslationsEN, legalTranslationsES } from './legal-i18n';
