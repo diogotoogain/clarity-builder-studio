@@ -332,7 +332,7 @@ g) Performance variations relative to past disclosed results.
 7.3. Violation of intellectual property will subject the offender to applicable civil and criminal penalties, including compensation for losses and damages of a minimum of R$ 100,000.00, without prejudice to other measures.`,
 
   'cipdTerms.section8.title': '8. Third-Party Liability Exemption',
-  'cipdTerms.section8.content': `8.1. The USER acknowledges that the payment platforms used (including but not limited to Hotmart, Mercado Pago, InfinitePay, Eduzz, or any others) act exclusively as payment intermediaries and do not participate in service provision or product delivery.
+  'cipdTerms.section8.content': `8.1. The USER acknowledges that the payment platforms used (including but not limited to Hotmart, Mercado Pago, InfinitePay, Eduzz, GoExplosion, or any others) act exclusively as payment intermediaries and do not participate in service provision or product delivery.
 
 8.2. Any complaints regarding the operation, performance, or results of the CIPD Software must be directed exclusively to TOOGAIN, and the USER is prohibited from holding payment platforms responsible for product-related issues.
 
