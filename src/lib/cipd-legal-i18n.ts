@@ -178,7 +178,7 @@ e) Exercício regular de direitos em processo judicial, administrativo ou arbitr
   'cipdPrivacy.section4.title': '4. Compartilhamento de Dados',
   'cipdPrivacy.section4.content': `Seus dados poderão ser compartilhados com:
 
-a) Plataformas de pagamento (Hotmart, Mercado Pago, InfinitePay, etc.) para processamento da transação;
+a) Plataformas de pagamento (Hotmart, Mercado Pago, InfinitePay, Eduzz, GoExplosion ou quaisquer outras) para processamento da transação;
 b) Serviços de contabilidade e assessoria jurídica da TOOGAIN;
 c) Autoridades competentes, quando exigido por lei ou ordem judicial.
 
