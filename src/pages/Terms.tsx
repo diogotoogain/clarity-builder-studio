@@ -68,7 +68,7 @@ const Terms = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const lastUpdated = '20/12/2024';
+  const lastUpdated = '20/06/2024';
 
   return (
     <>

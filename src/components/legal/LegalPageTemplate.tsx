@@ -24,7 +24,7 @@ const LegalPageTemplate = ({
   titleKey,
   subtitleKey,
   sections,
-  lastUpdated = '19/03/2026',
+  lastUpdated = '20/06/2024',
   nextPage,
   prevPage,
 }: LegalPageTemplateProps) => {
