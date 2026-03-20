@@ -446,7 +446,7 @@ TOOGAIN does not sell, rent, or commercialize personal data to third parties.`,
 5. Revoke consent;
 6. Request data portability.
 
-Requests should be directed to the email legalizacao@contabileasy.com.br and will be answered within 15 (fifteen) business days.`,
+Requests should be directed to the email diogo@toogain.com and will be answered within 15 (fifteen) business days.`,
 
   'cipdPrivacy.section7.title': '7. Security',
   'cipdPrivacy.section7.content': 'TOOGAIN adopts adequate technical and administrative measures to protect personal data against unauthorized access, destruction, loss, alteration, or leakage.',
