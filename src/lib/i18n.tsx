@@ -105,7 +105,7 @@ const translations = {
     'journey.purpose.title': 'O propósito',
     'journey.purpose.text': 'Voltar a ensinar — agora com método aplicado.',
     'journey.birth.title': 'Nasce a TOOGAIN (jun/2024)',
-    'journey.birth.text': 'TOO (também) + GAIN (lucro): "nós ganhamos e você também".',
+    'journey.birth.text': 'TOO (também) + GAIN (resultado): nosso compromisso é alinhar nosso resultado ao do aluno.',
     'journey.scale.title': 'Escala',
     'journey.scale.text': '13.305 alunos ativos em 33 países.',
     'journey.future.title': 'O futuro',
@@ -113,7 +113,7 @@ const translations = {
     
     // What is Toogain
     'toogain.title': 'TOO + GAIN',
-    'toogain.description': 'TOO significa "também". GAIN é lucro no mercado financeiro. TOOGAIN é mais do que um nome: é um compromisso com clareza, método e responsabilidade.',
+    'toogain.description': 'TOO significa "também". GAIN = resultado no mercado financeiro. TOOGAIN = Nosso compromisso é que nosso resultado esteja alinhado ao do aluno. Se o aluno ganha, estamos ganhando também. Se o aluno perde, estamos perdendo também.',
     
     // Group Structure
     'group.title': 'Estrutura do Grupo TOOGAIN',
@@ -166,7 +166,7 @@ const translations = {
     'family.caption2': 'Construção em parceria.',
     'family.caption3': 'Celebrar fases sem perder a direção.',
     'family.diogo.role': 'Matemático, Estatístico, Professor e Fundador da Toogain',
-    'family.nathalya.role': 'Cofundadora e Eng. de Produção',
+    'family.nathalya.role': 'Eng. de Produção',
     'family.vision.title': 'Visão que atravessa fronteiras',
     'family.vision.text1': 'Em uma experiência de 21 dias em Riad (Arábia Saudita), Diogo reforçou uma crença simples: confiança se constrói com diligência — observar, estudar, validar, e só então decidir.',
     'family.vision.text2': 'Essa mentalidade guia a TOOGAIN: método antes do ruído.',
@@ -269,6 +269,8 @@ const translations = {
     'footer.disclaimer': 'Conteúdo educacional. Responsabilidade em primeiro lugar.',
     'footer.terms': 'Termos',
     'footer.privacy': 'Privacidade',
+    'footer.risk': 'Termo de Risco',
+    'footer.refund': 'Reembolso',
   },
   en: {
     ...testimonialsTranslationsEN,
@@ -361,7 +363,7 @@ const translations = {
     'journey.purpose.title': 'The Purpose',
     'journey.purpose.text': 'Return to teaching — now with applied method.',
     'journey.birth.title': 'TOOGAIN is Born (Jun/2024)',
-    'journey.birth.text': 'TOO (also) + GAIN (profit): "we win and you do too."',
+    'journey.birth.text': 'TOO (also) + GAIN (result): our commitment is to align our result with the student\'s.',
     'journey.scale.title': 'Scale',
     'journey.scale.text': '13,305 active students in 33 countries.',
     'journey.future.title': 'The Future',
@@ -369,7 +371,7 @@ const translations = {
     
     // What is Toogain
     'toogain.title': 'TOO + GAIN',
-    'toogain.description': 'TOO means "also." GAIN is market profit. TOOGAIN is more than a name: it is a commitment to clarity, method, and responsibility.',
+    'toogain.description': 'TOO means "also." GAIN = result in the financial market. TOOGAIN = Our commitment is that our result is aligned with the student\'s. If the student wins, we are winning too. If the student loses, we are losing too.',
     
     // Group Structure
     'group.title': 'TOOGAIN Group Structure',
@@ -422,7 +424,7 @@ const translations = {
     'family.caption2': 'Building together.',
     'family.caption3': 'Celebrating phases without losing direction.',
     'family.diogo.role': 'Mathematician, Statistician, Professor and Founder of Toogain',
-    'family.nathalya.role': 'Co-founder and Production Eng.',
+    'family.nathalya.role': 'Production Eng.',
     'family.vision.title': 'Vision That Crosses Borders',
     'family.vision.text1': 'In a 21-day experience in Riyadh (Saudi Arabia), Diogo reinforced a simple belief: trust is built with diligence — observe, study, validate, and only then decide.',
     'family.vision.text2': 'This mindset guides TOOGAIN: method before noise.',
@@ -525,6 +527,8 @@ const translations = {
     'footer.disclaimer': 'Educational content. Responsibility first.',
     'footer.terms': 'Terms',
     'footer.privacy': 'Privacy',
+    'footer.risk': 'Risk Disclosure',
+    'footer.refund': 'Refund Policy',
   },
   es: {
     ...testimonialsTranslationsES,
@@ -617,7 +621,7 @@ const translations = {
     'journey.purpose.title': 'El Propósito',
     'journey.purpose.text': 'Volver a enseñar — ahora con método aplicado.',
     'journey.birth.title': 'Nace TOOGAIN (Jun/2024)',
-    'journey.birth.text': 'TOO (también) + GAIN (ganancia): "nosotros ganamos y tú también."',
+    'journey.birth.text': 'TOO (también) + GAIN (resultado): nuestro compromiso es alinear nuestro resultado con el del alumno.',
     'journey.scale.title': 'Escala',
     'journey.scale.text': '13.305 estudiantes activos en 33 países.',
     'journey.future.title': 'El Futuro',
@@ -625,7 +629,7 @@ const translations = {
     
     // What is Toogain
     'toogain.title': 'TOO + GAIN',
-    'toogain.description': 'TOO significa "también". GAIN es ganancia en el mercado. TOOGAIN es más que un nombre: es un compromiso con claridad, método y responsabilidad.',
+    'toogain.description': 'TOO significa "también". GAIN = resultado en el mercado financiero. TOOGAIN = Nuestro compromiso es que nuestro resultado esté alineado con el del alumno. Si el alumno gana, estamos ganando también. Si el alumno pierde, estamos perdiendo también.',
     
     // Group Structure
     'group.title': 'Estructura del Grupo TOOGAIN',
@@ -678,7 +682,7 @@ const translations = {
     'family.caption2': 'Construyendo juntos.',
     'family.caption3': 'Celebrar fases sin perder la dirección.',
     'family.diogo.role': 'Matemático, Estadístico, Profesor y Fundador de Toogain',
-    'family.nathalya.role': 'Cofundadora e Ing. de Producción',
+    'family.nathalya.role': 'Ing. de Producción',
     'family.vision.title': 'Visión que Cruza Fronteras',
     'family.vision.text1': 'En una experiencia de 21 días en Riad (Arabia Saudita), Diogo reforzó una creencia simple: la confianza se construye con diligencia — observar, estudiar, validar, y solo entonces decidir.',
     'family.vision.text2': 'Esta mentalidad guía a TOOGAIN: método antes del ruido.',
@@ -781,6 +785,8 @@ const translations = {
     'footer.disclaimer': 'Contenido educativo. Responsabilidad en primer lugar.',
     'footer.terms': 'Términos',
     'footer.privacy': 'Privacidad',
+    'footer.risk': 'Término de Riesgo',
+    'footer.refund': 'Reembolso',
   },
 };
 
