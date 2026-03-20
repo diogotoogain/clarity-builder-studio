@@ -19,6 +19,7 @@ const translations = {
     ...legalTranslationsPT,
     ...cipdTranslationsPT,
     ...institutionalTranslationsPT,
+    ...cipdLegalPT,
     // Navigation
     'nav.manifesto': 'Manifesto',
     'nav.ecosystem': 'Ecossistema',

@@ -28,6 +28,10 @@ const App = () => (
             <Route path="/termos" element={<Terms />} />
             <Route path="/privacidade" element={<Privacy />} />
             <Route path="/cipd" element={<CIPD />} />
+            <Route path="/cipd/termos" element={<CIPDTerms />} />
+            <Route path="/cipd/risco" element={<CIPDRisk />} />
+            <Route path="/cipd/privacidade" element={<CIPDPrivacy />} />
+            <Route path="/cipd/reembolso" element={<CIPDRefund />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
