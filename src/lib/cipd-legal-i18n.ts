@@ -581,7 +581,7 @@ g) Variaciones de rendimiento en relación con resultados pasados divulgados.
 7.3. La violación de la propiedad intelectual sujetará al infractor a las sanciones civiles y penales correspondientes, incluyendo indemnización por pérdidas y daños de un valor mínimo de R$ 100.000,00 (cien mil reales), sin perjuicio de otras medidas.`,
 
   'cipdTerms.section8.title': '8. Exención de Responsabilidad de Terceros',
-  'cipdTerms.section8.content': `8.1. El USUARIO reconoce que las plataformas de pago utilizadas (incluyendo pero no limitándose a Hotmart, Mercado Pago, InfinitePay, Eduzz o cualquier otra) actúan exclusivamente como intermediarias de pago y no participan en la prestación del servicio o la entrega del producto.
+  'cipdTerms.section8.content': `8.1. El USUARIO reconoce que las plataformas de pago utilizadas (incluyendo pero no limitándose a Hotmart, Mercado Pago, InfinitePay, Eduzz, GoExplosion o cualquier otra) actúan exclusivamente como intermediarias de pago y no participan en la prestación del servicio o la entrega del producto.
 
 8.2. Eventuales reclamaciones relativas al funcionamiento, rendimiento o resultados del Software CIPD deben dirigirse exclusivamente a TOOGAIN, quedando prohibido al USUARIO responsabilizar a plataformas de pago por cuestiones relativas al producto.
 
