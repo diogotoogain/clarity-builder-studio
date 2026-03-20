@@ -45,6 +45,7 @@ export const institutionalTranslationsPT = {
   'journey.phase5.text3': 'Em 9 meses, transformou R$600 em mais de R$100.000.',
   'journey.phase5.text4': 'Depois, R$10.000 em R$1.000.000 em 12 meses.',
   'journey.phase5.text5': 'A diferença? Ele não operava como a maioria perdedora. Não olhava gráficos como analista. Olhava como matemático. Estatístico. Ciência aplicada.',
+  'journey.phase5.disclaimer': 'Resultados pessoais do fundador. Rentabilidade passada não é garantia de resultados futuros. Operações em renda variável envolvem riscos de perda.',
   
   // Phase 6: Inspiration
   'journey.phase6.title': 'Jim Simons e a decisão de compartilhar',
