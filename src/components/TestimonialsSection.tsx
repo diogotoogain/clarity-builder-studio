@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Play, X, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
+import { Play, X, ChevronLeft, ChevronRight, Quote, AlertTriangle } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -156,6 +156,11 @@ const TestimonialCard = ({
           </h3>
         </div>
       </div>
+      
+      {/* Card disclaimer */}
+      <p className="mt-2 text-[11px] leading-tight text-muted-foreground px-1">
+        {t('testimonials.cardDisclaimer')}
+      </p>
     </motion.div>
   );
 };
@@ -222,6 +227,13 @@ const TestimonialModal = ({
               <div className="prose prose-sm prose-invert max-w-none">
                 <p className="text-muted-foreground leading-relaxed whitespace-pre-line text-sm">
                   {t(testimonial.transcriptKey)}
+                </p>
+              </div>
+              
+              {/* Modal disclaimer */}
+              <div className="mt-6 p-3 bg-muted/30 border border-border/50 rounded-lg">
+                <p className="text-xs text-muted-foreground leading-relaxed">
+                  {t('testimonials.cardDisclaimer')}
                 </p>
               </div>
             </div>
@@ -312,16 +324,18 @@ const TestimonialsSection = () => {
           </Carousel>
         </div>
 
-        {/* Disclaimer */}
-        <motion.p
-          className="text-xs text-muted-foreground/70 text-center mt-10 max-w-2xl mx-auto"
+        {/* General Disclaimer */}
+        <motion.div
+          className="mt-10 max-w-3xl mx-auto p-4 bg-muted/20 border border-border/30 rounded-lg"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}
         >
-          {t('testimonials.disclaimer')}
-        </motion.p>
+          <p className="text-xs text-muted-foreground text-center leading-relaxed">
+            {t('testimonials.disclaimer')}
+          </p>
+        </motion.div>
       </div>
 
       {/* Modal */}

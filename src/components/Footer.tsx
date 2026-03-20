@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
           
           {/* Legal Links */}
-          <div className="flex justify-center gap-6 mb-6">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-6">
             <Link 
               to="/termos" 
               className="text-xs text-muted-foreground hover:text-foreground transition-colors"
@@ -28,10 +28,22 @@ const Footer = () => {
               {t('footer.terms')}
             </Link>
             <Link 
+              to="/cipd/risco" 
+              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+            >
+              {t('footer.risk')}
+            </Link>
+            <Link 
               to="/privacidade" 
               className="text-xs text-muted-foreground hover:text-foreground transition-colors"
             >
               {t('footer.privacy')}
+            </Link>
+            <Link 
+              to="/cipd/reembolso" 
+              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+            >
+              {t('footer.refund')}
             </Link>
           </div>
           

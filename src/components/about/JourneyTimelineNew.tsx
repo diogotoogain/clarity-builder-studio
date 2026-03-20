@@ -12,10 +12,11 @@ interface PhaseProps {
   textKeys: string[];
   quoteKey?: string;
   armKeys?: string[];
+  disclaimerKey?: string;
   isLast?: boolean;
 }
 
-const JourneyPhase = ({ phase, icon: Icon, titleKey, subtitleKey, textKeys, quoteKey, armKeys, isLast }: PhaseProps) => {
+const JourneyPhase = ({ phase, icon: Icon, titleKey, subtitleKey, textKeys, quoteKey, armKeys, disclaimerKey, isLast }: PhaseProps) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
   const { t } = useI18n();
@@ -94,8 +95,14 @@ const JourneyPhase = ({ phase, icon: Icon, titleKey, subtitleKey, textKeys, quot
             ))}
           </div>
         )}
-      </div>
 
+        {/* Disclaimer if present (Phase 5) */}
+        {disclaimerKey && (
+          <p className="mt-6 text-xs text-muted-foreground italic leading-relaxed relative z-10">
+            {t(disclaimerKey)}
+          </p>
+        )}
+      </div>
       {/* Connector line */}
       {!isLast && (
         <motion.div
@@ -144,6 +151,7 @@ const JourneyTimelineNew = () => {
       icon: TrendingUp,
       titleKey: 'journey.phase5.title',
       textKeys: ['journey.phase5.text1', 'journey.phase5.text2', 'journey.phase5.text3', 'journey.phase5.text4', 'journey.phase5.text5'],
+      disclaimerKey: 'journey.phase5.disclaimer',
     },
     {
       phase: 6,

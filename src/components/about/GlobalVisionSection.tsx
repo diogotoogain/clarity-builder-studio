@@ -58,7 +58,7 @@ const GlobalVisionSection = () => {
               </div>
               
               {/* Disclaimer */}
-              <p className="mt-3 text-[10px] text-muted-foreground/60 text-center italic">
+              <p className="mt-3 text-xs text-muted-foreground text-center font-medium">
                 {t('vision.disclaimer')}
               </p>
             </motion.div>

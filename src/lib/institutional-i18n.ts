@@ -59,8 +59,8 @@ export const institutionalTranslationsPT = {
   // Phase 7: TOOGAIN Birth
   'journey.phase7.title': 'Junho de 2024',
   'journey.phase7.text1': 'TOO = também (em inglês)',
-  'journey.phase7.text2': 'GAIN = lucro no mercado financeiro',
-  'journey.phase7.text3': 'TOOGAIN = "Nós ganhamos e você também."',
+  'journey.phase7.text2': 'GAIN = resultado no mercado financeiro',
+  'journey.phase7.text3': 'TOOGAIN = Nosso compromisso é que nosso resultado esteja alinhado ao do aluno.',
   'journey.phase7.text4': 'A empresa nasceu em junho de 2024, mas carrega uma década de construção. Diogo e Nathalya empreendem juntos desde 2014.',
   'journey.phase7.text5': 'Três braços:',
   'journey.phase7.arm1': 'TOOGAIN Money Academy: Educação (FRI + Plano 100K)',
@@ -86,7 +86,7 @@ export const institutionalTranslationsPT = {
   'family.title': 'A base é humana',
   'family.subtitle': 'Diogo, Nathalya e Otto Rosendo',
   'family.text1': 'A TOOGAIN não é de uma pessoa. É de uma família.',
-  'family.text2': 'Nathalya — engenheira de produção, cofundadora, parceira desde 2014. Ela estava lá quando não tinha esponja para lavar louça. Ela está aqui agora.',
+  'family.text2': 'Nathalya — engenheira de produção, parceira desde 2014. Ela estava lá quando não tinha esponja para lavar louça. Ela está aqui agora.',
   'family.text3': 'Otto — o filho que comeu miojo no ebulidor. O filho que hoje estuda na melhor escola que os pais jamais poderiam imaginar.',
   'family.text4': 'Família, presença e responsabilidade não são "detalhes". São a régua do que vale a pena construir.',
   'family.text5': 'As fotos abaixo foram feitas na Suíte Royal do Palácio Tangará, em São Paulo — um dos espaços mais exclusivos do país. Não para ostentar. Para registrar o quanto a vida pode mudar quando você decide que ela vai mudar.',
@@ -95,7 +95,7 @@ export const institutionalTranslationsPT = {
   'family.caption3': 'Celebrar fases sem perder a direção.',
   'family.locationCaption': 'Suíte Royal do Palácio Tangará, São Paulo.',
   'family.diogo.role': 'Matemático, Estatístico, Professor e Fundador da Toogain',
-  'family.nathalya.role': 'Cofundadora e Eng. de Produção',
+  'family.nathalya.role': 'Eng. de Produção',
   
   // Dream Section - 1001
   'dream.title': '1001',
@@ -169,8 +169,8 @@ export const institutionalTranslationsEN = {
   // Phase 7: TOOGAIN Birth
   'journey.phase7.title': 'June 2024',
   'journey.phase7.text1': 'TOO = also (in English)',
-  'journey.phase7.text2': 'GAIN = profit in financial markets',
-  'journey.phase7.text3': 'TOOGAIN = "We win and you do too."',
+  'journey.phase7.text2': 'GAIN = result in financial markets',
+  'journey.phase7.text3': 'TOOGAIN = Our commitment is that our result is aligned with the student\'s.',
   'journey.phase7.text4': 'The company was born in June 2024, but carries a decade of building. Diogo and Nathalya have been entrepreneurs together since 2014.',
   'journey.phase7.text5': 'Three arms:',
   'journey.phase7.arm1': 'TOOGAIN Money Academy: Education (FRI + 100K Plan)',
@@ -196,7 +196,7 @@ export const institutionalTranslationsEN = {
   'family.title': 'The foundation is human',
   'family.subtitle': 'Diogo, Nathalya and Otto Rosendo',
   'family.text1': "TOOGAIN isn't one person's. It's a family's.",
-  'family.text2': "Nathalya — production engineer, co-founder, partner since 2014. She was there when there was no sponge to wash dishes. She's here now.",
+  'family.text2': "Nathalya — production engineer, partner since 2014. She was there when there was no sponge to wash dishes. She's here now.",
   'family.text3': "Otto — the son who ate noodles from the immersion heater. The son who now studies at the best school his parents could never have imagined.",
   'family.text4': 'Family, presence and responsibility are not "details". They are the measure of what is worth building.',
   'family.text5': "The photos below were taken at the Royal Suite of Palácio Tangará in São Paulo — one of the country's most exclusive spaces. Not to show off. To record how much life can change when you decide it will change.",
@@ -205,7 +205,7 @@ export const institutionalTranslationsEN = {
   'family.caption3': 'Celebrating phases without losing direction.',
   'family.locationCaption': 'Royal Suite at Palácio Tangará, São Paulo.',
   'family.diogo.role': 'Mathematician, Statistician, Professor and Founder of Toogain',
-  'family.nathalya.role': 'Co-founder and Production Eng.',
+  'family.nathalya.role': 'Production Eng.',
   
   // Dream Section - 1001
   'dream.title': '1001',
@@ -279,8 +279,8 @@ export const institutionalTranslationsES = {
   // Phase 7: TOOGAIN Birth
   'journey.phase7.title': 'Junio de 2024',
   'journey.phase7.text1': 'TOO = también (en inglés)',
-  'journey.phase7.text2': 'GAIN = ganancia en mercados financieros',
-  'journey.phase7.text3': 'TOOGAIN = "Nosotros ganamos y tú también."',
+  'journey.phase7.text2': 'GAIN = resultado en mercados financieros',
+  'journey.phase7.text3': 'TOOGAIN = Nuestro compromiso es que nuestro resultado esté alineado con el del alumno.',
   'journey.phase7.text4': 'La empresa nació en junio de 2024, pero lleva una década de construcción. Diogo y Nathalya emprenden juntos desde 2014.',
   'journey.phase7.text5': 'Tres brazos:',
   'journey.phase7.arm1': 'TOOGAIN Money Academy: Educación (FRI + Plan 100K)',
@@ -306,7 +306,7 @@ export const institutionalTranslationsES = {
   'family.title': 'La base es humana',
   'family.subtitle': 'Diogo, Nathalya y Otto Rosendo',
   'family.text1': 'TOOGAIN no es de una persona. Es de una familia.',
-  'family.text2': 'Nathalya — ingeniera de producción, cofundadora, compañera desde 2014. Ella estaba ahí cuando no había esponja para lavar platos. Ella está aquí ahora.',
+  'family.text2': 'Nathalya — ingeniera de producción, compañera desde 2014. Ella estaba ahí cuando no había esponja para lavar platos. Ella está aquí ahora.',
   'family.text3': 'Otto — el hijo que comió fideos del calentador. El hijo que hoy estudia en la mejor escuela que sus padres jamás podrían haber imaginado.',
   'family.text4': 'Familia, presencia y responsabilidad no son "detalles". Son la medida de lo que vale la pena construir.',
   'family.text5': 'Las fotos a continuación fueron tomadas en la Suite Royal del Palácio Tangará en São Paulo — uno de los espacios más exclusivos del país. No para presumir. Para registrar cuánto puede cambiar la vida cuando decides que va a cambiar.',
@@ -315,7 +315,7 @@ export const institutionalTranslationsES = {
   'family.caption3': 'Celebrar fases sin perder la dirección.',
   'family.locationCaption': 'Suite Royal del Palácio Tangará, São Paulo.',
   'family.diogo.role': 'Matemático, Estadístico, Profesor y Fundador de Toogain',
-  'family.nathalya.role': 'Cofundadora e Ing. de Producción',
+  'family.nathalya.role': 'Ing. de Producción',
   
   // Dream Section - 1001
   'dream.title': '1001',
