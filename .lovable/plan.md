@@ -1,55 +1,57 @@
 
 
-## Plano: Criar 4 Páginas Legais CIPD
+## Plano Atualizado: Adequações Jurídicas (com feedback da IA jurídica)
 
-### O que será feito
+O plano anterior foi validado pela IA jurídica com 3 observações. Incorporo as 3 abaixo. As 9 alterações originais permanecem, com o ajuste do ponto 2 (nota editorial em TODOS os 9 transcripts, não só Rogério). As rotas do footer já existem.
 
-Criar 4 novas páginas no site, todas seguindo o mesmo padrão visual da página `/termos` existente (sidebar com índice, animações, back-to-top, responsive):
+---
 
-1. **`/cipd/termos`** - Termos de Uso CIPD (12 seções)
-2. **`/cipd/risco`** - Termo de Ciência de Risco (10 seções)
-3. **`/cipd/privacidade`** - Política de Privacidade LGPD (8 seções)
-4. **`/cipd/reembolso`** - Política de Reembolso (4 seções)
+### Arquivos e mudanças
 
-### Arquivos a criar/modificar
+**1. `src/lib/testimonials-i18n.ts`** (PT/EN/ES)
+- Reescrever 9 títulos (headlines) conforme lista aprovada
+- Adicionar nota editorial no final de TODOS os 9 transcripts (não só Rogério): `"\n\n[Nota da TOOGAIN: O CIPD é uma ferramenta automatizada configurada pelo próprio usuário. O Prof. Diogo não opera a conta de nenhum cliente. Cada usuário é responsável pela sua própria operação.]"`
+- Adicionar chave `testimonials.cardDisclaimer` com disclaimer individual (⚠️ texto completo)
+- Reescrever `testimonials.disclaimer` com texto jurídico completo
 
-**1. `src/lib/cipd-legal-i18n.ts`** (novo)
-- Traduções PT completas com todo o conteúdo dos 4 documentos DOCX
-- Traduções EN e ES (traduzidas do PT)
-- Seções destacadas (highlight) para cláusulas de risco e isenção de responsabilidade
+**2. `src/lib/i18n.tsx`** (PT/EN/ES — 3 blocos)
+- `family.nathalya.role`: tirar "Cofundadora", deixar só "Eng. de Produção" / "Production Eng." / "Ing. de Producción"
+- `toogain.description`: suavizar — remover "lucro", colocar "resultado" e frase de alinhamento
+- `journey.birth.text`: trocar "nós ganhamos e você também" por versão suavizada
+- `family.vision.disclaimer`: manter texto, será estilizado no componente
+- Adicionar chaves `footer.risk` e `footer.refund` nos 3 idiomas
 
-**2. `src/components/legal/LegalPageTemplate.tsx`** (novo)
-- Componente reutilizável que extrai o padrão comum da página Terms.tsx
-- Props: título, subtítulo, seções, link para próximo documento
-- Sidebar com índice, scroll tracking, mobile menu, back-to-top
-- Evita duplicação de código entre as 5 páginas legais
+**3. `src/lib/institutional-i18n.ts`** (PT/EN/ES — 3 blocos)
+- `family.nathalya.role`: tirar "Cofundadora"
+- `family.text2`: tirar "cofundadora" do texto (manter "engenheira de produção, parceira desde 2014")
+- Adicionar `journey.phase5.disclaimer` nos 3 idiomas
 
-**3. 4 novas páginas:**
-- `src/pages/CIPDTerms.tsx`
-- `src/pages/CIPDRisk.tsx`
-- `src/pages/CIPDPrivacy.tsx`
-- `src/pages/CIPDRefund.tsx`
+**4. `src/components/TestimonialsSection.tsx`**
+- Adicionar disclaimer individual (`testimonials.cardDisclaimer`) abaixo de cada card com `text-xs text-muted-foreground` (fonte legível, não invisível)
+- No modal, após o transcript, adicionar o mesmo disclaimer
 
-Cada uma usa o LegalPageTemplate com suas seções específicas.
+**5. `src/components/Footer.tsx`**
+- Trocar 2 links por 4: Termos (`/termos`), Termo de Risco (`/cipd/risco`), Privacidade (`/privacidade`), Reembolso (`/cipd/reembolso`)
 
-**4. `src/App.tsx`** - Adicionar 4 novas rotas
+**6. `src/components/about/JourneyTimelineNew.tsx`**
+- Renderizar `journey.phase5.disclaimer` abaixo dos textos da fase 5 (em itálico, `text-xs text-muted-foreground`)
 
-**5. `src/lib/i18n.tsx`** - Importar e integrar as novas traduções
+**7. `src/components/about/GlobalVisionSection.tsx`**
+- Aumentar fonte do disclaimer CR7 de `text-[10px] text-muted-foreground/60` para `text-xs text-muted-foreground`
 
-### Conteúdo de cada página
+---
 
-| Página | Seções | Highlights |
-|--------|--------|------------|
-| Termos de Uso CIPD | 12 (Definições → Disposições Gerais) | Seção 6 (Não Responsabilidade) |
-| Termo de Risco | 10 (Ciência Renda Variável → Perfil Investidor) | Seções 1, 2, 8 |
-| Política Privacidade | 8 (Controlador → Alterações) | Nenhuma |
-| Política Reembolso | 4 (Direito Arrependimento → Chargebacks) | Seção 4 |
+### Resumo das 9+1 alterações
 
-### Tradução
-
-Conteúdo original em PT será mantido exatamente como nos documentos. Traduções EN e ES serão criadas para todas as seções. Data de última atualização: 19/03/2026.
-
-### Navegação
-
-Cada página terá link para a próxima no rodapé, criando um fluxo entre os 4 documentos legais do CIPD.
+| # | Alteração | Arquivo(s) |
+|---|-----------|------------|
+| 1 | Nathalya: tirar "Cofundadora" | i18n.tsx, institutional-i18n.ts |
+| 2 | 9 títulos de depoimentos | testimonials-i18n.ts |
+| 3 | Disclaimer individual em cada card | TestimonialsSection.tsx, testimonials-i18n.ts |
+| 4 | Nota editorial em TODOS os 9 transcripts | testimonials-i18n.ts |
+| 5 | Disclaimer geral reescrito | testimonials-i18n.ts |
+| 6 | Disclaimer fase 5 da jornada | institutional-i18n.ts, JourneyTimelineNew.tsx |
+| 7 | Suavizar "TOO + GAIN" | i18n.tsx |
+| 8 | Footer com 4 links | Footer.tsx, i18n.tsx |
+| 9 | CR7 disclaimer mais visível | GlobalVisionSection.tsx |
 
