@@ -710,7 +710,7 @@ Las solicitudes deben dirigirse al correo electrónico diogo@toogain.com y será
   'cipdRefund.section1.title': '1. Derecho de Arrepentimiento (Art. 49 del CDC)',
   'cipdRefund.section1.content': `1.1. El USUARIO que adquiera el producto CIPD mediante contratación realizada fuera del establecimiento comercial (internet, WhatsApp, teléfono o cualquier medio digital) tiene el derecho de desistir de la compra en el plazo de 7 (siete) días corridos, contados a partir de la fecha de recepción del producto (archivo del software y/o acceso al contenido educativo).
 
-1.2. Para ejercer el derecho de arrepentimiento, el USUARIO deberá enviar solicitud expresa al correo electrónico legalizacao@contabileasy.com.br o vía WhatsApp de soporte, dentro del plazo legal.
+1.2. Para ejercer el derecho de arrepentimiento, el USUARIO deberá enviar solicitud expresa al correo electrónico alunos@toogain.com o vía WhatsApp de soporte, dentro del plazo legal.
 
 1.3. El reembolso se realizará por el valor integral pagado, mediante la misma forma de pago utilizada en la compra, en el plazo de hasta 30 (treinta) días hábiles después de la confirmación de la solicitud.
 
