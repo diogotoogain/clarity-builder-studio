@@ -16,7 +16,7 @@ interface PhaseProps {
   isLast?: boolean;
 }
 
-const JourneyPhase = ({ phase, icon: Icon, titleKey, subtitleKey, textKeys, quoteKey, armKeys, isLast }: PhaseProps) => {
+const JourneyPhase = ({ phase, icon: Icon, titleKey, subtitleKey, textKeys, quoteKey, armKeys, disclaimerKey, isLast }: PhaseProps) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
   const { t } = useI18n();
