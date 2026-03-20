@@ -695,7 +695,7 @@ TOOGAIN no vende, alquila ni comercializa datos personales a terceros.`,
 5. Revocar el consentimiento;
 6. Solicitar portabilidad de los datos.
 
-Las solicitudes deben dirigirse al correo electrónico legalizacao@contabileasy.com.br y serán atendidas en el plazo de 15 (quince) días hábiles.`,
+Las solicitudes deben dirigirse al correo electrónico diogo@toogain.com y serán atendidas en el plazo de 15 (quince) días hábiles.`,
 
   'cipdPrivacy.section7.title': '7. Seguridad',
   'cipdPrivacy.section7.content': 'TOOGAIN adopta medidas técnicas y administrativas adecuadas para proteger los datos personales contra accesos no autorizados, destrucción, pérdida, alteración o filtración.',
