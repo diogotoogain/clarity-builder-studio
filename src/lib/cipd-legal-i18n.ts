@@ -158,7 +158,7 @@ g) Não responsabilizará a TOOGAIN, seus sócios ou representantes por prejuíz
   'cipdPrivacy.subtitle': 'Política de Privacidade em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018)',
 
   'cipdPrivacy.section1.title': '1. Controlador dos Dados',
-  'cipdPrivacy.section1.content': 'A TOOGAIN MONEY ACADEMY LTDA é a controladora dos dados pessoais coletados no âmbito da comercialização e operação do produto CIPD – Copy Invest Prof Diogo.\n\nEncarregado de Proteção de Dados (DPO): Diogo Alves Rosendo – E-mail: legalizacao@contabileasy.com.br',
+  'cipdPrivacy.section1.content': 'A TOOGAIN MONEY ACADEMY LTDA é a controladora dos dados pessoais coletados no âmbito da comercialização e operação do produto CIPD – Copy Invest Prof Diogo.\n\nEncarregado de Proteção de Dados (DPO): Diogo Alves Rosendo – E-mail: diogo@toogain.com',
 
   'cipdPrivacy.section2.title': '2. Dados Coletados',
   'cipdPrivacy.section2.content': `Coletamos os seguintes dados pessoais:
@@ -197,7 +197,7 @@ A TOOGAIN não vende, aluga ou comercializa dados pessoais a terceiros.`,
 5. Revogar o consentimento;
 6. Solicitar portabilidade dos dados.
 
-As solicitações devem ser dirigidas ao e-mail legalizacao@contabileasy.com.br e serão atendidas no prazo de 15 (quinze) dias úteis.`,
+As solicitações devem ser dirigidas ao e-mail diogo@toogain.com e serão atendidas no prazo de 15 (quinze) dias úteis.`,
 
   'cipdPrivacy.section7.title': '7. Segurança',
   'cipdPrivacy.section7.content': 'A TOOGAIN adota medidas técnicas e administrativas adequadas para proteger os dados pessoais contra acessos não autorizados, destruição, perda, alteração ou vazamento.',
@@ -212,7 +212,7 @@ As solicitações devem ser dirigidas ao e-mail legalizacao@contabileasy.com.br 
   'cipdRefund.section1.title': '1. Direito de Arrependimento (Art. 49 do CDC)',
   'cipdRefund.section1.content': `1.1. O USUÁRIO que adquirir o produto CIPD por meio de contratação realizada fora do estabelecimento comercial (internet, WhatsApp, telefone ou qualquer meio digital) tem o direito de desistir da compra no prazo de 7 (sete) dias corridos, contados a partir da data de recebimento do produto (arquivo do software e/ou acesso ao conteúdo educacional).
 
-1.2. Para exercer o direito de arrependimento, o USUÁRIO deverá enviar solicitação expressa ao e-mail legalizacao@contabileasy.com.br ou via WhatsApp de suporte, dentro do prazo legal.
+1.2. Para exercer o direito de arrependimento, o USUÁRIO deverá enviar solicitação expressa ao e-mail alunos@toogain.com ou via WhatsApp de suporte, dentro do prazo legal.
 
 1.3. O reembolso será realizado no valor integral pago, por meio da mesma forma de pagamento utilizada na compra, no prazo de até 30 (trinta) dias úteis após a confirmação da solicitação.
 
@@ -407,7 +407,7 @@ g) They will not hold TOOGAIN, its partners, or representatives responsible for 
   'cipdPrivacy.subtitle': 'Privacy Policy in compliance with the General Data Protection Law (Law No. 13,709/2018)',
 
   'cipdPrivacy.section1.title': '1. Data Controller',
-  'cipdPrivacy.section1.content': 'TOOGAIN MONEY ACADEMY LTDA is the controller of personal data collected in the context of the commercialization and operation of the CIPD – Copy Invest Prof Diogo product.\n\nData Protection Officer (DPO): Diogo Alves Rosendo – Email: legalizacao@contabileasy.com.br',
+  'cipdPrivacy.section1.content': 'TOOGAIN MONEY ACADEMY LTDA is the controller of personal data collected in the context of the commercialization and operation of the CIPD – Copy Invest Prof Diogo product.\n\nData Protection Officer (DPO): Diogo Alves Rosendo – Email: diogo@toogain.com',
 
   'cipdPrivacy.section2.title': '2. Data Collected',
   'cipdPrivacy.section2.content': `We collect the following personal data:
@@ -446,7 +446,7 @@ TOOGAIN does not sell, rent, or commercialize personal data to third parties.`,
 5. Revoke consent;
 6. Request data portability.
 
-Requests should be directed to the email legalizacao@contabileasy.com.br and will be answered within 15 (fifteen) business days.`,
+Requests should be directed to the email diogo@toogain.com and will be answered within 15 (fifteen) business days.`,
 
   'cipdPrivacy.section7.title': '7. Security',
   'cipdPrivacy.section7.content': 'TOOGAIN adopts adequate technical and administrative measures to protect personal data against unauthorized access, destruction, loss, alteration, or leakage.',
@@ -461,7 +461,7 @@ Requests should be directed to the email legalizacao@contabileasy.com.br and wil
   'cipdRefund.section1.title': '1. Right of Withdrawal (Art. 49 of CDC)',
   'cipdRefund.section1.content': `1.1. The USER who purchases the CIPD product through a contract made outside the commercial establishment (internet, WhatsApp, phone, or any digital means) has the right to withdraw from the purchase within 7 (seven) calendar days, counted from the date of product receipt (software file and/or access to educational content).
 
-1.2. To exercise the right of withdrawal, the USER must send an express request to the email legalizacao@contabileasy.com.br or via support WhatsApp, within the legal deadline.
+1.2. To exercise the right of withdrawal, the USER must send an express request to the email alunos@toogain.com or via support WhatsApp, within the legal deadline.
 
 1.3. The refund will be made for the full amount paid, through the same payment method used for the purchase, within up to 30 (thirty) business days after request confirmation.
 
@@ -656,7 +656,7 @@ g) No responsabilizará a TOOGAIN, sus socios o representantes por perjuicios fi
   'cipdPrivacy.subtitle': 'Política de Privacidad conforme a la Ley General de Protección de Datos (Ley nº 13.709/2018)',
 
   'cipdPrivacy.section1.title': '1. Controlador de los Datos',
-  'cipdPrivacy.section1.content': 'TOOGAIN MONEY ACADEMY LTDA es la controladora de los datos personales recopilados en el ámbito de la comercialización y operación del producto CIPD – Copy Invest Prof Diogo.\n\nEncargado de Protección de Datos (DPO): Diogo Alves Rosendo – E-mail: legalizacao@contabileasy.com.br',
+  'cipdPrivacy.section1.content': 'TOOGAIN MONEY ACADEMY LTDA es la controladora de los datos personales recopilados en el ámbito de la comercialización y operación del producto CIPD – Copy Invest Prof Diogo.\n\nEncargado de Protección de Datos (DPO): Diogo Alves Rosendo – E-mail: diogo@toogain.com',
 
   'cipdPrivacy.section2.title': '2. Datos Recopilados',
   'cipdPrivacy.section2.content': `Recopilamos los siguientes datos personales:
@@ -695,7 +695,7 @@ TOOGAIN no vende, alquila ni comercializa datos personales a terceros.`,
 5. Revocar el consentimiento;
 6. Solicitar portabilidad de los datos.
 
-Las solicitudes deben dirigirse al correo electrónico legalizacao@contabileasy.com.br y serán atendidas en el plazo de 15 (quince) días hábiles.`,
+Las solicitudes deben dirigirse al correo electrónico diogo@toogain.com y serán atendidas en el plazo de 15 (quince) días hábiles.`,
 
   'cipdPrivacy.section7.title': '7. Seguridad',
   'cipdPrivacy.section7.content': 'TOOGAIN adopta medidas técnicas y administrativas adecuadas para proteger los datos personales contra accesos no autorizados, destrucción, pérdida, alteración o filtración.',
@@ -710,7 +710,7 @@ Las solicitudes deben dirigirse al correo electrónico legalizacao@contabileasy.
   'cipdRefund.section1.title': '1. Derecho de Arrepentimiento (Art. 49 del CDC)',
   'cipdRefund.section1.content': `1.1. El USUARIO que adquiera el producto CIPD mediante contratación realizada fuera del establecimiento comercial (internet, WhatsApp, teléfono o cualquier medio digital) tiene el derecho de desistir de la compra en el plazo de 7 (siete) días corridos, contados a partir de la fecha de recepción del producto (archivo del software y/o acceso al contenido educativo).
 
-1.2. Para ejercer el derecho de arrepentimiento, el USUARIO deberá enviar solicitud expresa al correo electrónico legalizacao@contabileasy.com.br o vía WhatsApp de soporte, dentro del plazo legal.
+1.2. Para ejercer el derecho de arrepentimiento, el USUARIO deberá enviar solicitud expresa al correo electrónico alunos@toogain.com o vía WhatsApp de soporte, dentro del plazo legal.
 
 1.3. El reembolso se realizará por el valor integral pagado, mediante la misma forma de pago utilizada en la compra, en el plazo de hasta 30 (treinta) días hábiles después de la confirmación de la solicitud.
 
