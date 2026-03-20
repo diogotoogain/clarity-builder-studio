@@ -95,8 +95,14 @@ const JourneyPhase = ({ phase, icon: Icon, titleKey, subtitleKey, textKeys, quot
             ))}
           </div>
         )}
-      </div>
 
+        {/* Disclaimer if present (Phase 5) */}
+        {disclaimerKey && (
+          <p className="mt-6 text-xs text-muted-foreground italic leading-relaxed relative z-10">
+            {t(disclaimerKey)}
+          </p>
+        )}
+      </div>
       {/* Connector line */}
       {!isLast && (
         <motion.div
