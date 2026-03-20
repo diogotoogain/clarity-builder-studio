@@ -5,10 +5,11 @@ export const testimonialsTranslationsPT = {
   // Section
   'testimonials.title': 'Depoimentos reais',
   'testimonials.subtitle': 'Histórias de quem vive a transformação.',
-  'testimonials.disclaimer': 'Depoimentos reais de alunos. Resultados individuais podem variar. Conteúdo educacional.',
+  'testimonials.disclaimer': 'Depoimentos reais de alunos. Resultados individuais obtidos em condições específicas de mercado, com variáveis como capital alocado, período, volatilidade e configuração. Renda variável envolve risco de perda parcial ou total do capital investido. Resultados passados não garantem resultados futuros. O CIPD é uma ferramenta de automação de estratégia — não constitui gestão de recursos, consultoria de investimentos nem recomendação individual. A TOOGAIN não é instituição financeira nem possui registro na CVM.',
+  'testimonials.cardDisclaimer': '⚠️ Depoimento real de aluno. Resultado individual obtido em condições específicas de mercado. Renda variável envolve risco de perda parcial ou total do capital. Resultados passados não garantem resultados futuros. O CIPD é uma ferramenta de automação — não constitui gestão de recursos nem promessa de ganho.',
 
   // Testimonial 1 - Rogério
-  'testimonials.1.headline': 'Nossa família viu o patrimônio crescer R$100 mil em menos de 3 meses — e não fizemos nada',
+  'testimonials.1.headline': 'Como a automação trouxe uma nova perspectiva para a família do Rogério',
   'testimonials.1.transcript': `A nossa família viu o seu patrimônio crescer em aproximadamente 100 mil reais. Fala pessoal, meu nome é Rogério, eu falo aqui do Rio Grande do Sul e falo em nome da minha família, que hoje é composta por mim, pela minha esposa e pelo meu filho. Nós já fomos quatro até o dia 29 de outubro de 2022, quando nós vimos a nossa filha de 11 anos partir para a eternidade.
 
 Nós fomos literalmente nocauteados pela vida, nocauteados pela dor da saudade. E o que nos manteve de pé é a fé em nosso Senhor Jesus Cristo, nós somos católicos cristãos e temos convicção e a certeza de que nada acontece fora do controle de Deus. Mas o fato é que a dor da saudade é realmente uma coisa insuportável.
@@ -37,10 +38,12 @@ O professor Diogo, o projeto dele, faz tudo para nós. Mas vocês vejam que Deus
 
 Por isso fica aqui o meu agradecimento ao professor Diogo, à família dele, à nossa família aqui agora. Eu falando em nome da minha família, agora agradeço ao professor Diogo e à família dele por tudo isso, por todo esse milagre que tem ocorrido nas nossas vidas. E agradeço acima de tudo a Deus, nosso Senhor Jesus Cristo, por ter colocado o professor Diogo e a família dele no caminho da nossa família, da minha família.
 
-Abraço.`,
+Abraço.
+
+[Nota da TOOGAIN: O CIPD é uma ferramenta automatizada configurada pelo próprio usuário. O Prof. Diogo não opera a conta de nenhum cliente. Cada usuário é responsável pela sua própria operação.]`,
 
   // Testimonial 2 - Rose e Ivan
-  'testimonials.2.headline': 'Eu e meu marido lucramos mais de R$50 mil em 1 mês — e antecipamos nossa aposentadoria',
+  'testimonials.2.headline': 'Rose e Ivan encontraram no método uma ferramenta para seu planejamento financeiro',
   'testimonials.2.transcript': `Oi, professor Diogo. É com imensa alegria que eu e o Ivan queremos falar a respeito desse projeto que é o Copy Invest. Eu estou desde janeiro e o Ivan começou em março e de março até abril eu e ele lucramos mais de 50 mil reais.
 
 Antes do Copy Invest, nós dois estávamos planejando a nossa aposentadoria para daqui a uns cinco anos. Depois que a gente viu que o Copy Invest já deu certo, está dando até mais do que as nossas expectativas. E a gente planeja agora, daqui a um tempinho já, antecipar a nossa aposentadoria e viajar como a gente já tinha planejado.
@@ -49,10 +52,12 @@ E eu me sinto muito grata a Deus em primeiro lugar e a segundo ao professor Diog
 
 A gente só liga o computador às nove da manhã e desliga ele às 18 horas. E a gente vê os resultados, o dinheiro multiplicando e não dá para descrever a sensação de gratidão. Nossa, é só alegria, é só gratidão mesmo.
 
-Verdade, professor Diogo. Eu quero mandar um abraço para a família Copy Invest. Então um abraço a todos do Copy Invest e tamo junto! Beijão!`,
+Verdade, professor Diogo. Eu quero mandar um abraço para a família Copy Invest. Então um abraço a todos do Copy Invest e tamo junto! Beijão!
+
+[Nota da TOOGAIN: O CIPD é uma ferramenta automatizada configurada pelo próprio usuário. O Prof. Diogo não opera a conta de nenhum cliente. Cada usuário é responsável pela sua própria operação.]`,
 
   // Testimonial 3 - Eliseu
-  'testimonials.3.headline': 'R$193 mil de lucro — e a única coisa que eu faço é ligar e desligar o computador',
+  'testimonials.3.headline': 'Eliseu compartilha sua experiência com a automação do CIPD',
   'testimonials.3.transcript': `Meu nome é Eliseu, sou do estado de Minas Gerais. Conheci o professor Diogo em outubro de 2022 numa live ao vivo, onde ele falava do mercado financeiro, eu me interessei bastante, um mercado onde eu tinha vontade de conhecer e não sabia por onde começar. E vendo ele falar, ele é uma pessoa que falava muito de Jesus, de Deus e de família.
 
 Então eu senti uma sinceridade nele e falei, ah, eu vou dar uma oportunidade pra ele e pra mim também, né, que eu precisava. Finalzinho de dezembro, o professor Diogo colocou no Telegram, no grupo onde ele tem os alunos dele, e ele falou que ia dar uma oportunidade pra cinco ou seis pessoas. Como eu sei que era um cara de uma capacidade enorme, de um conhecimento fora do normal, que eu já acompanhava ele, eu resolvi, eu mandei uma mensagem pra ele.
@@ -63,30 +68,38 @@ E a oportunidade é essa que me rendeu, até hoje, desde o início do projeto, 1
 
 A única coisa que eu faço todos os dias é ligar o computador aí por volta de oito e meia, um pouquinho antes das nove, e fechar a partir das cinco e meia da tarde, quando já não tem mais operações. A única coisa que eu faço é isso. De manhã, ligo, aciona a estratégia e simplesmente, final da tarde, desligo o computador, outro dia faço a mesma coisa, simplesmente assim.
 
-É incrível. Então, eu queria dizer ao professor Diogo gratidão por ter me dado essa oportunidade, agradecer a Deus, gratidão a Deus por ter me dado essa oportunidade. Então, professor, tamo junto.`,
+É incrível. Então, eu queria dizer ao professor Diogo gratidão por ter me dado essa oportunidade, agradecer a Deus, gratidão a Deus por ter me dado essa oportunidade. Então, professor, tamo junto.
+
+[Nota da TOOGAIN: O CIPD é uma ferramenta automatizada configurada pelo próprio usuário. O Prof. Diogo não opera a conta de nenhum cliente. Cada usuário é responsável pela sua própria operação.]`,
 
   // Testimonial 4 - André
-  'testimonials.4.headline': 'Produtor rural fez R$100 mil em 3 dias — rendimentos que antes eram anuais agora são diários',
+  'testimonials.4.headline': 'André, produtor rural, conta como descobriu o mercado financeiro',
   'testimonials.4.transcript': `E aí, professor Diogo, tudo bem? Tchê, falando sobre o Copy Invest aqui, eu como produtor rural, antes de eu entrar no Copy Invest, meus rendimentos eram anuais e dependia das condições climáticas para mim ter lucros. Hoje, com o Copy Invest, meus rendimentos líquidos são diários, com excelentes resultados. Nos últimos três dias, eu fiz R$100 mil.
 
 E a estratégia do professor é excelente. E eu não preciso fazer nada. Só ligo o computador, executo as automações e deixo rodar.
 
 Então, só tenho a agradecer ao senhor aí, professor. Esse magnífico trabalho aí. Abração.
 
-Tamo junto.`,
+Tamo junto.
+
+[Nota da TOOGAIN: O CIPD é uma ferramenta automatizada configurada pelo próprio usuário. O Prof. Diogo não opera a conta de nenhum cliente. Cada usuário é responsável pela sua própria operação.]`,
 
   // Testimonial 5 - Rodrigo
-  'testimonials.5.headline': 'R$36 mil de lucro em 2 meses — minha esposa liga e desliga o computador enquanto eu trabalho',
+  'testimonials.5.headline': 'Rodrigo e sua esposa incorporaram a automação na rotina familiar',
   'testimonials.5.transcript': `Fala, professor. Eu comecei no Copy Invest começo de fevereiro, hoje praticamente quase final de abril, estou totalizando R$36 mil de lucro, só bênçãos e bênçãos, só tenho que agradecer muito a esse projeto do Copy Invest. Hoje mesmo eu trabalhei o dia todo e quem ligou meu computador e desligou meu computador foi a minha esposa, que eu sou muito grato a ela por fazer isso por mim e por nós, afinal ela está muito feliz por todo esse resultado que o Copy Invest está fazendo nas nossas vidas.
 
-Só temos que agradecer a Deus por tudo e ao Copy Invest. Muito obrigado.`,
+Só temos que agradecer a Deus por tudo e ao Copy Invest. Muito obrigado.
+
+[Nota da TOOGAIN: O CIPD é uma ferramenta automatizada configurada pelo próprio usuário. O Prof. Diogo não opera a conta de nenhum cliente. Cada usuário é responsável pela sua própria operação.]`,
 
   // Testimonial 6 - Fátima
-  'testimonials.6.headline': 'Entrei zerada, usando o cartão da minha sogra — hoje quitei todas as minhas dívidas',
-  'testimonials.6.transcript': `Professor Diogo, primeiramente eu só tenho a agradecer demais ao senhor por esse projeto do Copy Invest, porque quando eu tive conhecimento, no início, eu realmente não tinha recurso nenhum, eu realmente precisei utilizar o cartão da minha sogra, para iniciar todo o processo eu estava zerada de recursos, e aí eu entrei unicamente mesmo com a fé, com a esperança e uma expectativa de que algo bom ia acontecer, e graças a Deus deu muito certo, vem dando muito certo, eu consegui quitar as minhas dívidas, nós estamos pagando tudo certinho, todo mês, nós estávamos em uma situação muito difícil, eu e meu esposo, e assim, a qualidade de vida que a gente vem tendo, vem proporcionando para os nossos filhos, é algo incrível, então eu super indico, se alguém de repente que estiver assistindo esse vídeo, estiver inseguro, estiver confuso, pensativo em relação, se entra ou não para o Copy Invest, eu posso te falar com toda a fé, toda a confiança, toda a certeza, vem sem medo, porque vale muito a pena, e é só o começo. Obrigada, professor Diogo, de coração, só tenho gratidão pelo Copy Invest.`,
+  'testimonials.6.headline': 'Fátima conta como reorganizou sua vida financeira',
+  'testimonials.6.transcript': `Professor Diogo, primeiramente eu só tenho a agradecer demais ao senhor por esse projeto do Copy Invest, porque quando eu tive conhecimento, no início, eu realmente não tinha recurso nenhum, eu realmente precisei utilizar o cartão da minha sogra, para iniciar todo o processo eu estava zerada de recursos, e aí eu entrei unicamente mesmo com a fé, com a esperança e uma expectativa de que algo bom ia acontecer, e graças a Deus deu muito certo, vem dando muito certo, eu consegui quitar as minhas dívidas, nós estamos pagando tudo certinho, todo mês, nós estávamos em uma situação muito difícil, eu e meu esposo, e assim, a qualidade de vida que a gente vem tendo, vem proporcionando para os nossos filhos, é algo incrível, então eu super indico, se alguém de repente que estiver assistindo esse vídeo, estiver inseguro, estiver confuso, pensativo em relação, se entra ou não para o Copy Invest, eu posso te falar com toda a fé, toda a confiança, toda a certeza, vem sem medo, porque vale muito a pena, e é só o começo. Obrigada, professor Diogo, de coração, só tenho gratidão pelo Copy Invest.
+
+[Nota da TOOGAIN: O CIPD é uma ferramenta automatizada configurada pelo próprio usuário. O Prof. Diogo não opera a conta de nenhum cliente. Cada usuário é responsável pela sua própria operação.]`,
 
   // Testimonial 7 - Ailton
-  'testimonials.7.headline': '59 anos, só a 6ª série, tentei mais de 10 vezes em outros cursos — o Diogo ficou 2 horas no telefone comigo até configurar tudo',
+  'testimonials.7.headline': 'Ailton, 59 anos, fala sobre o suporte que recebeu',
   'testimonials.7.transcript': `Olá pessoal, bom dia, boa tarde, boa noite, não sei que horas vocês vão dar uma olhada nesse vídeo. Passando aí pra... Meu nome é Ailton, né, primeiro. Passando pra falar com vocês um pouquinho aí a respeito do professor Diogo.
 
 A gente faz pouco tempo que se fala, mas eu vi alguma coisa diferente, né, esse ramo de mercado financeiro, criptomoedas, essas coisas. Eu já tentei algumas vezes, né, algumas assim bem mais de 10, e não consegui. Qual o motivo? Falta de ajuda, né, o meu conhecimento é pequeno, quase nada, né, não estudei, tenho só a sexta série.
@@ -109,18 +122,22 @@ Então, se você tem dúvida e está precisando de uma pessoa de verdade, que te
 
 Então é isso aí, se vocês precisam de alguém aí pra dar um apoio, um suporte financeiro, às vezes é igual eu que não entende nada. Ou também, pode ser, às vezes você entende, mas tem medo, acha que é mais um golpe, porque eu já participei de muitos deles. E nunca vi ninguém nem parecido com o que o Diogo tem feito aí.
 
-Tudo de bom aí, Deus abençoe, vamos pra luta!`,
+Tudo de bom aí, Deus abençoe, vamos pra luta!
+
+[Nota da TOOGAIN: O CIPD é uma ferramenta automatizada configurada pelo próprio usuário. O Prof. Diogo não opera a conta de nenhum cliente. Cada usuário é responsável pela sua própria operação.]`,
 
   // Testimonial 8 - Toninho
-  'testimonials.8.headline': 'Construí o quarto dos sonhos do meu filho com os lucros do CIPD — TV 4K, pia de granito, porcelanato top',
+  'testimonials.8.headline': 'Toninho compartilha como o CIPD impactou sua família',
   'testimonials.8.transcript': `Me chamo Antônio Marcos, falo do estado do Maranhão, sou aluno do professor Diogo e já consegui fazer 2.520 em sete minutos, então me sinto muito bem, estou muito feliz. Grande Toninho, fala aí, libera o seu microfone aí Toninho. Estou ouvindo? Boa tarde gente, quase início de noite aqui para nós, a gente já está num grupo e é um prazer muito grande, uma satisfação.
 
 A gente tem esse propósito, a gente tem orado pelo CIPD, pela família de vocês, eu sou bem mais velho do que o professor Diogo, eu sou de 1974, 21 de janeiro. Eu agradeço a Deus por ter conhecido o mercado financeiro hoje, que eu conheço através do professor Diogo. Hoje eu já fiz algumas realizações com esse mercado financeiro, no projeto do professor Diogo, do CIPD, eu ganhei mais do que perdi, eu nunca perdi na verdade, sempre ganhei.
 
-Tinha loss, mas chegava final do mês, eu estava sempre positivo e ao ponto de construir um quarto para meu filho, um quarto assim do jeito que ele queria, com televisão de 40 e poucas polegadas, imagem 4K, pia de granito, aquelas coisas porcelanadas do mais top possível, eu até mandei assim quando estava quase pronto, eu acho que eu filmei o professor Diogo, ele confirmou aí, mas ele já está lá no quarto, hoje está de férias brincando, é um adolescente. Eu agradeço ao professor Diogo, porque ele abriu as portas para mim do mercado financeiro e é isso galera, eu vou passar a minha palavra aí para o próximo professor, daqui a pouco a gente bate o papo, valeu.`,
+Tinha loss, mas chegava final do mês, eu estava sempre positivo e ao ponto de construir um quarto para meu filho, um quarto assim do jeito que ele queria, com televisão de 40 e poucas polegadas, imagem 4K, pia de granito, aquelas coisas porcelanadas do mais top possível, eu até mandei assim quando estava quase pronto, eu acho que eu filmei o professor Diogo, ele confirmou aí, mas ele já está lá no quarto, hoje está de férias brincando, é um adolescente. Eu agradeço ao professor Diogo, porque ele abriu as portas para mim do mercado financeiro e é isso galera, eu vou passar a minha palavra aí para o próximo professor, daqui a pouco a gente bate o papo, valeu.
+
+[Nota da TOOGAIN: O CIPD é uma ferramenta automatizada configurada pelo próprio usuário. O Prof. Diogo não opera a conta de nenhum cliente. Cada usuário é responsável pela sua própria operação.]`,
 
   // Testimonial 9 - David
-  'testimonials.9.headline': 'Pastor fez R$12.500 de lucro no primeiro mês — "O CIPD foi resposta de Deus para minhas orações"',
+  'testimonials.9.headline': 'David conta sua experiência com o CIPD',
   'testimonials.9.transcript': `Fala, Diogo. Tudo bem? Ah, que legal, cara, poder falar aqui com você. Poxa, o CIPD foi um presente de Deus para a minha vida e uma resposta para as minhas orações.
 
 Eu confesso que eu deixei passar janeiro, fevereiro, março, mas no final de março eu falei, eu não posso deixar passar mais um mês, não posso deixar passar mais uma oportunidade. Então, entrei e como você falou, desde o dia 1º de abril até hoje, finalzinho de abril, eu já obtive mais de R$12 mil de lucro, em torno de R$12.500 e era algo que eu não dava nem para imaginar que fosse possível. E ainda mais do jeito que você falou, próximo das 9 horas eu ligo o meu notebook e o trabalho final é só desligá-lo quando chegar a próxima, chegar às 18 horas.
@@ -131,17 +148,20 @@ Então, recomendo. Eu via muitos depoimentos e eu falava, poxa, que legal, mas h
 
 Então, super indico e com certeza a expectativa para o futuro é gigantesca e eu tenho certeza que é só o começo e que o melhor ainda está por vir. Meu irmão, muito obrigado e que Deus abençoe você e toda a sua família. Um grande abraço.
 
-Fica com Deus.`,
+Fica com Deus.
+
+[Nota da TOOGAIN: O CIPD é uma ferramenta automatizada configurada pelo próprio usuário. O Prof. Diogo não opera a conta de nenhum cliente. Cada usuário é responsável pela sua própria operação.]`,
 };
 
 export const testimonialsTranslationsEN = {
   // Section
   'testimonials.title': 'Real testimonials',
   'testimonials.subtitle': 'Stories from those living the transformation.',
-  'testimonials.disclaimer': 'Real student testimonials. Individual results may vary. Educational content.',
+  'testimonials.disclaimer': 'Real student testimonials. Individual results obtained under specific market conditions, with variables such as allocated capital, period, volatility, and configuration. Variable income involves risk of partial or total loss of invested capital. Past results do not guarantee future results. CIPD is a strategy automation tool — it does not constitute asset management, investment consulting, or individual recommendation. TOOGAIN is not a financial institution and is not registered with the CVM.',
+  'testimonials.cardDisclaimer': '⚠️ Real student testimonial. Individual result obtained under specific market conditions. Variable income involves risk of partial or total loss of capital. Past results do not guarantee future results. CIPD is an automation tool — it does not constitute asset management or promise of gain.',
 
   // Testimonial 1 - Rogério
-  'testimonials.1.headline': 'Our family saw our assets grow R$100,000 in less than 3 months — and we did nothing',
+  'testimonials.1.headline': 'How automation brought a new perspective to Rogério\'s family',
   'testimonials.1.transcript': `Our family saw its assets grow by approximately 100 thousand reais. Hey everyone, my name is Rogério, I'm speaking here from Rio Grande do Sul and I speak on behalf of my family, which today consists of me, my wife and my son. We were once four until October 29, 2022, when we saw our 11-year-old daughter depart for eternity.
 
 We were literally knocked down by life, knocked down by the pain of longing. And what kept us standing is faith in our Lord Jesus Christ, we are Catholic Christians and we are convinced and certain that nothing happens outside of God's control. But the fact is that the pain of longing is really an unbearable thing.
@@ -170,10 +190,12 @@ Professor Diogo, his project, does everything for us. But you see that God, our 
 
 Therefore, here is my thanks to Professor Diogo, to his family, to our family here now. I speaking on behalf of my family, now thank Professor Diogo and his family for all this, for all this miracle that has been occurring in our lives. And I thank above all God, our Lord Jesus Christ, for having placed Professor Diogo and his family in the path of our family, my family.
 
-Hugs.`,
+Hugs.
+
+[TOOGAIN Note: CIPD is an automated tool configured by the user themselves. Prof. Diogo does not operate any client's account. Each user is responsible for their own operation.]`,
 
   // Testimonial 2 - Rose e Ivan
-  'testimonials.2.headline': 'My husband and I profited over R$50,000 in 1 month — and we moved up our retirement',
+  'testimonials.2.headline': 'Rose and Ivan found in the method a tool for their financial planning',
   'testimonials.2.transcript': `Hi, Professor Diogo. It is with immense joy that Ivan and I want to talk about this project that is Copy Invest. I've been here since January and Ivan started in March and from March to April he and I profited more than 50 thousand reais.
 
 Before Copy Invest, we were both planning our retirement for about five years from now. After we saw that Copy Invest worked, it's even exceeding our expectations. And we now plan, in a little while, to move up our retirement and travel as we had already planned.
@@ -182,10 +204,12 @@ And I feel very grateful to God first and second to Professor Diogo. Ivan and I,
 
 We just turn on the computer at nine in the morning and turn it off at 6 pm. And we see the results, the money multiplying and it's impossible to describe the feeling of gratitude. Wow, it's just joy, it's just gratitude indeed.
 
-True, Professor Diogo. I want to send a hug to the Copy Invest family. So a hug to everyone at Copy Invest and we're together! Big kiss!`,
+True, Professor Diogo. I want to send a hug to the Copy Invest family. So a hug to everyone at Copy Invest and we're together! Big kiss!
+
+[TOOGAIN Note: CIPD is an automated tool configured by the user themselves. Prof. Diogo does not operate any client's account. Each user is responsible for their own operation.]`,
 
   // Testimonial 3 - Eliseu
-  'testimonials.3.headline': 'R$193,000 profit — and the only thing I do is turn the computer on and off',
+  'testimonials.3.headline': 'Eliseu shares his experience with CIPD automation',
   'testimonials.3.transcript': `My name is Eliseu, I'm from the state of Minas Gerais. I met Professor Diogo in October 2022 on a live stream, where he talked about the financial market, I was very interested, a market where I wanted to learn about and didn't know where to start. And watching him speak, he's a person who talked a lot about Jesus, God and family.
 
 So I felt sincerity in him and said, ah, I'll give him and myself a chance too, which I needed. At the end of December, Professor Diogo posted on Telegram, in the group where he has his students, and he said he was going to give an opportunity to five or six people. Since I knew he was a guy with enormous capacity, with extraordinary knowledge, that I already followed him, I decided, I sent him a message.
@@ -196,30 +220,38 @@ And the opportunity is this one that has yielded me, to date, since the beginnin
 
 The only thing I do every day is turn on the computer around eight thirty, a little before nine, and close it from five thirty in the afternoon, when there are no more operations. The only thing I do is this. In the morning, I turn on, activate the strategy and simply, late afternoon, I turn off the computer, another day I do the same thing, just like that.
 
-It's incredible. So, I wanted to tell Professor Diogo gratitude for giving me this opportunity, thank God, gratitude to God for giving me this opportunity. So, professor, we're together.`,
+It's incredible. So, I wanted to tell Professor Diogo gratitude for giving me this opportunity, thank God, gratitude to God for giving me this opportunity. So, professor, we're together.
+
+[TOOGAIN Note: CIPD is an automated tool configured by the user themselves. Prof. Diogo does not operate any client's account. Each user is responsible for their own operation.]`,
 
   // Testimonial 4 - André
-  'testimonials.4.headline': 'Rural producer made R$100,000 in 3 days — earnings that were annual are now daily',
+  'testimonials.4.headline': 'André, a rural producer, tells how he discovered the financial market',
   'testimonials.4.transcript': `Hey, Professor Diogo, how are you? Man, talking about Copy Invest here, me as a rural producer, before I joined Copy Invest, my earnings were annual and depended on weather conditions for me to have profits. Today, with Copy Invest, my net earnings are daily, with excellent results. In the last three days, I made R$100,000.
 
 And the professor's strategy is excellent. And I don't need to do anything. I just turn on the computer, run the automations and let it run.
 
 So, I can only thank you, professor. This magnificent work. Big hug.
 
-We're together.`,
+We're together.
+
+[TOOGAIN Note: CIPD is an automated tool configured by the user themselves. Prof. Diogo does not operate any client's account. Each user is responsible for their own operation.]`,
 
   // Testimonial 5 - Rodrigo
-  'testimonials.5.headline': 'R$36,000 profit in 2 months — my wife turns on and off the computer while I work',
+  'testimonials.5.headline': 'Rodrigo and his wife incorporated automation into their family routine',
   'testimonials.5.transcript': `Hey, professor. I started Copy Invest at the beginning of February, today practically almost at the end of April, I'm totaling R$36,000 in profit, just blessings and blessings, I can only thank this Copy Invest project a lot. Today I worked all day and who turned on my computer and turned off my computer was my wife, and I'm very grateful to her for doing this for me and for us, after all she is very happy with all this result that Copy Invest is doing in our lives.
 
-We can only thank God for everything and Copy Invest. Thank you very much.`,
+We can only thank God for everything and Copy Invest. Thank you very much.
+
+[TOOGAIN Note: CIPD is an automated tool configured by the user themselves. Prof. Diogo does not operate any client's account. Each user is responsible for their own operation.]`,
 
   // Testimonial 6 - Fátima
-  'testimonials.6.headline': 'I started with nothing, using my mother-in-law\'s card — today I paid off all my debts',
-  'testimonials.6.transcript': `Professor Diogo, first of all I can only thank you very much for this Copy Invest project, because when I learned about it, in the beginning, I really had no resources, I really had to use my mother-in-law's card, to start the whole process I was broke, and so I entered solely with faith, with hope and an expectation that something good was going to happen, and thank God it worked out great, it's been working out great, I managed to pay off my debts, we're paying everything correctly, every month, we were in a very difficult situation, me and my husband, and so, the quality of life we've been having, providing for our children, is something incredible, so I super recommend it, if someone who is watching this video is insecure, confused, thinking about whether or not to join Copy Invest, I can tell you with all faith, all confidence, all certainty, come without fear, because it's really worth it, and it's just the beginning. Thank you, Professor Diogo, from my heart, I only have gratitude for Copy Invest.`,
+  'testimonials.6.headline': 'Fátima tells how she reorganized her financial life',
+  'testimonials.6.transcript': `Professor Diogo, first of all I can only thank you very much for this Copy Invest project, because when I learned about it, in the beginning, I really had no resources, I really had to use my mother-in-law's card, to start the whole process I was broke, and so I entered solely with faith, with hope and an expectation that something good was going to happen, and thank God it worked out great, it's been working out great, I managed to pay off my debts, we're paying everything correctly, every month, we were in a very difficult situation, me and my husband, and so, the quality of life we've been having, providing for our children, is something incredible, so I super recommend it, if someone who is watching this video is insecure, confused, thinking about whether or not to join Copy Invest, I can tell you with all faith, all confidence, all certainty, come without fear, because it's really worth it, and it's just the beginning. Thank you, Professor Diogo, from my heart, I only have gratitude for Copy Invest.
+
+[TOOGAIN Note: CIPD is an automated tool configured by the user themselves. Prof. Diogo does not operate any client's account. Each user is responsible for their own operation.]`,
 
   // Testimonial 7 - Ailton
-  'testimonials.7.headline': '59 years old, only 6th grade, tried over 10 times with other courses — Diogo spent 2 hours on the phone with me until everything was set up',
+  'testimonials.7.headline': 'Ailton, 59 years old, talks about the support he received',
   'testimonials.7.transcript': `Hello everyone, good morning, good afternoon, good evening, I don't know what time you'll take a look at this video. Passing by to... My name is Ailton, first. Passing by to talk to you a little bit about Professor Diogo.
 
 We've been talking for a short time, but I saw something different, right, this branch of financial market, cryptocurrencies, these things. I've tried a few times, right, some more than 10, and I couldn't. What's the reason? Lack of help, right, my knowledge is small, almost nothing, right, I didn't study, I only have 6th grade.
@@ -242,18 +274,22 @@ So, if you have doubts and need a real person, who is interested in helping you,
 
 So that's it, if you need someone there to give support, financial support, sometimes you're like me who doesn't understand anything. Or also, it could be, sometimes you understand, but are afraid, think it's another scam, because I've participated in many of them. And I've never seen anyone even similar to what Diogo has been doing there.
 
-All the best there, God bless, let's fight!`,
+All the best there, God bless, let's fight!
+
+[TOOGAIN Note: CIPD is an automated tool configured by the user themselves. Prof. Diogo does not operate any client's account. Each user is responsible for their own operation.]`,
 
   // Testimonial 8 - Toninho
-  'testimonials.8.headline': 'I built my son\'s dream room with CIPD profits — 4K TV, granite sink, top porcelain tiles',
+  'testimonials.8.headline': 'Toninho shares how CIPD impacted his family',
   'testimonials.8.transcript': `My name is Antônio Marcos, I'm from the state of Maranhão, I'm a student of Professor Diogo and I already managed to make 2,520 in seven minutes, so I feel very good, I'm very happy. Big Toninho, speak up, release your microphone there Toninho. Can you hear me? Good afternoon everyone, almost evening here for us, we're already in a group and it's a great pleasure, a satisfaction.
 
 We have this purpose, we've been praying for CIPD, for your family, I'm much older than Professor Diogo, I'm from 1974, January 21st. I thank God for having known the financial market today, which I know through Professor Diogo. Today I've already made some achievements with this financial market, in Professor Diogo's project, CIPD, I've won more than I've lost, I never actually lost, I always won.
 
-There were losses, but at the end of the month, I was always positive to the point of building a room for my son, a room the way he wanted, with a 40-something inch TV, 4K image, granite sink, those porcelain things of the top possible, I even sent when it was almost ready, I think I filmed it for Professor Diogo, he confirmed there, but he's already in the room, today he's on vacation playing, he's a teenager. I thank Professor Diogo, because he opened the doors for me to the financial market and that's it guys, I'll pass my word to the next professor, in a bit we'll chat, thanks.`,
+There were losses, but at the end of the month, I was always positive to the point of building a room for my son, a room the way he wanted, with a 40-something inch TV, 4K image, granite sink, those porcelain things of the top possible, I even sent when it was almost ready, I think I filmed it for Professor Diogo, he confirmed there, but he's already in the room, today he's on vacation playing, he's a teenager. I thank Professor Diogo, because he opened the doors for me to the financial market and that's it guys, I'll pass my word to the next professor, in a bit we'll chat, thanks.
+
+[TOOGAIN Note: CIPD is an automated tool configured by the user themselves. Prof. Diogo does not operate any client's account. Each user is responsible for their own operation.]`,
 
   // Testimonial 9 - David
-  'testimonials.9.headline': 'Pastor made R$12,500 profit in the first month — "CIPD was God\'s answer to my prayers"',
+  'testimonials.9.headline': 'David shares his experience with CIPD',
   'testimonials.9.transcript': `Hey, Diogo. How are you? Oh, how cool, man, being able to talk here with you. Wow, CIPD was a gift from God for my life and an answer to my prayers.
 
 I confess that I let January, February, March pass, but at the end of March I said, I can't let another month pass, I can't let another opportunity pass. So, I joined and as you said, from April 1st until today, end of April, I've already obtained more than R$12,000 in profit, around R$12,500 and it was something I couldn't even imagine was possible. And even more the way you said, around 9 o'clock I turn on my notebook and the final work is just to turn it off when it's time, when it's 6 pm.
@@ -264,17 +300,20 @@ So, I recommend it. I saw many testimonials and I said, wow, how cool, but today
 
 So, I super recommend it and certainly the expectation for the future is huge and I'm sure this is just the beginning and the best is yet to come. My brother, thank you very much and may God bless you and your whole family. A big hug.
 
-Stay with God.`,
+Stay with God.
+
+[TOOGAIN Note: CIPD is an automated tool configured by the user themselves. Prof. Diogo does not operate any client's account. Each user is responsible for their own operation.]`,
 };
 
 export const testimonialsTranslationsES = {
   // Section
   'testimonials.title': 'Testimonios reales',
   'testimonials.subtitle': 'Historias de quienes viven la transformación.',
-  'testimonials.disclaimer': 'Testimonios reales de estudiantes. Los resultados individuales pueden variar. Contenido educativo.',
+  'testimonials.disclaimer': 'Testimonios reales de alumnos. Resultados individuales obtenidos en condiciones específicas de mercado, con variables como capital asignado, período, volatilidad y configuración. La renta variable implica riesgo de pérdida parcial o total del capital invertido. Resultados pasados no garantizan resultados futuros. El CIPD es una herramienta de automatización de estrategia — no constituye gestión de recursos, consultoría de inversiones ni recomendación individual. TOOGAIN no es una institución financiera ni está registrada en la CVM.',
+  'testimonials.cardDisclaimer': '⚠️ Testimonio real de alumno. Resultado individual obtenido en condiciones específicas de mercado. La renta variable implica riesgo de pérdida parcial o total del capital. Resultados pasados no garantizan resultados futuros. El CIPD es una herramienta de automatización — no constituye gestión de recursos ni promesa de ganancia.',
 
   // Testimonial 1 - Rogério
-  'testimonials.1.headline': 'Nuestra familia vio crecer el patrimonio R$100 mil en menos de 3 meses — y no hicimos nada',
+  'testimonials.1.headline': 'Cómo la automatización trajo una nueva perspectiva para la familia de Rogério',
   'testimonials.1.transcript': `Nuestra familia vio crecer su patrimonio en aproximadamente 100 mil reales. Hola a todos, mi nombre es Rogério, hablo desde Rio Grande do Sul y hablo en nombre de mi familia, que hoy está compuesta por mí, mi esposa y mi hijo. Ya fuimos cuatro hasta el 29 de octubre de 2022, cuando vimos a nuestra hija de 11 años partir hacia la eternidad.
 
 Fuimos literalmente noqueados por la vida, noqueados por el dolor de la nostalgia. Y lo que nos mantuvo de pie es la fe en nuestro Señor Jesucristo, somos católicos cristianos y tenemos la convicción y la certeza de que nada sucede fuera del control de Dios. Pero el hecho es que el dolor de la nostalgia es realmente algo insoportable.
@@ -303,10 +342,12 @@ El profesor Diogo, su proyecto, hace todo por nosotros. Pero vean que Dios, nues
 
 Por eso queda aquí mi agradecimiento al profesor Diogo, a su familia, a nuestra familia aquí ahora. Yo hablando en nombre de mi familia, ahora agradezco al profesor Diogo y a su familia por todo esto, por todo este milagro que ha ocurrido en nuestras vidas. Y agradezco sobre todo a Dios, nuestro Señor Jesucristo, por haber puesto al profesor Diogo y a su familia en el camino de nuestra familia, de mi familia.
 
-Abrazo.`,
+Abrazo.
+
+[Nota de TOOGAIN: El CIPD es una herramienta automatizada configurada por el propio usuario. El Prof. Diogo no opera la cuenta de ningún cliente. Cada usuario es responsable de su propia operación.]`,
 
   // Testimonial 2 - Rose e Ivan
-  'testimonials.2.headline': 'Mi esposo y yo ganamos más de R$50 mil en 1 mes — y adelantamos nuestra jubilación',
+  'testimonials.2.headline': 'Rose e Ivan encontraron en el método una herramienta para su planificación financiera',
   'testimonials.2.transcript': `Hola, profesor Diogo. Es con inmensa alegría que Ivan y yo queremos hablar sobre este proyecto que es Copy Invest. Estoy desde enero e Ivan comenzó en marzo y de marzo a abril él y yo ganamos más de 50 mil reales.
 
 Antes de Copy Invest, los dos estábamos planeando nuestra jubilación para dentro de unos cinco años. Después de que vimos que Copy Invest funcionó, está dando incluso más de nuestras expectativas. Y ahora planeamos, en un tiempo, adelantar nuestra jubilación y viajar como ya habíamos planeado.
@@ -315,10 +356,12 @@ Y me siento muy agradecida a Dios en primer lugar y en segundo al profesor Diogo
 
 Solo encendemos la computadora a las nueve de la mañana y la apagamos a las 18 horas. Y vemos los resultados, el dinero multiplicándose y no se puede describir la sensación de gratitud. Guau, es solo alegría, es solo gratitud de verdad.
 
-Verdad, profesor Diogo. Quiero mandar un abrazo a la familia Copy Invest. ¡Entonces un abrazo a todos del Copy Invest y estamos juntos! ¡Besazo!`,
+Verdad, profesor Diogo. Quiero mandar un abrazo a la familia Copy Invest. ¡Entonces un abrazo a todos del Copy Invest y estamos juntos! ¡Besazo!
+
+[Nota de TOOGAIN: El CIPD es una herramienta automatizada configurada por el propio usuario. El Prof. Diogo no opera la cuenta de ningún cliente. Cada usuario es responsable de su propia operación.]`,
 
   // Testimonial 3 - Eliseu
-  'testimonials.3.headline': 'R$193 mil de ganancia — y lo único que hago es encender y apagar la computadora',
+  'testimonials.3.headline': 'Eliseu comparte su experiencia con la automatización del CIPD',
   'testimonials.3.transcript': `Mi nombre es Eliseu, soy del estado de Minas Gerais. Conocí al profesor Diogo en octubre de 2022 en un live, donde hablaba del mercado financiero, me interesé bastante, un mercado donde tenía ganas de conocer y no sabía por dónde empezar. Y viéndolo hablar, es una persona que hablaba mucho de Jesús, de Dios y de familia.
 
 Entonces sentí sinceridad en él y dije, ah, voy a darle una oportunidad a él y a mí también, que lo necesitaba. A finales de diciembre, el profesor Diogo publicó en Telegram, en el grupo donde tiene a sus alumnos, y dijo que iba a dar una oportunidad a cinco o seis personas. Como sé que era un tipo con una capacidad enorme, con un conocimiento fuera de lo normal, que ya lo seguía, decidí, le mandé un mensaje.
@@ -329,30 +372,38 @@ Y la oportunidad es esta que me ha rendido, hasta hoy, desde el inicio del proye
 
 Lo único que hago todos los días es encender la computadora por las ocho y media, un poco antes de las nueve, y cerrar a partir de las cinco y media de la tarde, cuando ya no hay más operaciones. Lo único que hago es esto. Por la mañana, enciendo, activo la estrategia y simplemente, al final de la tarde, apago la computadora, otro día hago lo mismo, simplemente así.
 
-Es increíble. Entonces, quería decirle al profesor Diogo gratitud por haberme dado esta oportunidad, agradecer a Dios, gratitud a Dios por haberme dado esta oportunidad. Entonces, profesor, estamos juntos.`,
+Es increíble. Entonces, quería decirle al profesor Diogo gratitud por haberme dado esta oportunidad, agradecer a Dios, gratitud a Dios por haberme dado esta oportunidad. Entonces, profesor, estamos juntos.
+
+[Nota de TOOGAIN: El CIPD es una herramienta automatizada configurada por el propio usuario. El Prof. Diogo no opera la cuenta de ningún cliente. Cada usuario es responsable de su propia operación.]`,
 
   // Testimonial 4 - André
-  'testimonials.4.headline': 'Productor rural hizo R$100 mil en 3 días — rendimientos que eran anuales ahora son diarios',
+  'testimonials.4.headline': 'André, productor rural, cuenta cómo descubrió el mercado financiero',
   'testimonials.4.transcript': `Hola, profesor Diogo, ¿todo bien? Che, hablando sobre Copy Invest aquí, yo como productor rural, antes de entrar en Copy Invest, mis rendimientos eran anuales y dependían de las condiciones climáticas para tener ganancias. Hoy, con Copy Invest, mis rendimientos netos son diarios, con excelentes resultados. En los últimos tres días, hice R$100 mil.
 
 Y la estrategia del profesor es excelente. Y no necesito hacer nada. Solo enciendo la computadora, ejecuto las automatizaciones y dejo correr.
 
 Entonces, solo tengo que agradecerle, profesor. Este magnífico trabajo. Abrazo.
 
-Estamos juntos.`,
+Estamos juntos.
+
+[Nota de TOOGAIN: El CIPD es una herramienta automatizada configurada por el propio usuario. El Prof. Diogo no opera la cuenta de ningún cliente. Cada usuario es responsable de su propia operación.]`,
 
   // Testimonial 5 - Rodrigo
-  'testimonials.5.headline': 'R$36 mil de ganancia en 2 meses — mi esposa enciende y apaga la computadora mientras trabajo',
+  'testimonials.5.headline': 'Rodrigo y su esposa incorporaron la automatización en la rutina familiar',
   'testimonials.5.transcript': `Hola, profesor. Empecé en Copy Invest a principios de febrero, hoy prácticamente casi a finales de abril, estoy totalizando R$36 mil de ganancia, solo bendiciones y bendiciones, solo tengo que agradecer mucho a este proyecto de Copy Invest. Hoy mismo trabajé todo el día y quien encendió mi computadora y apagó mi computadora fue mi esposa, y estoy muy agradecido con ella por hacer esto por mí y por nosotros, después de todo ella está muy feliz por todo este resultado que Copy Invest está haciendo en nuestras vidas.
 
-Solo tenemos que agradecer a Dios por todo y a Copy Invest. Muchas gracias.`,
+Solo tenemos que agradecer a Dios por todo y a Copy Invest. Muchas gracias.
+
+[Nota de TOOGAIN: El CIPD es una herramienta automatizada configurada por el propio usuario. El Prof. Diogo no opera la cuenta de ningún cliente. Cada usuario es responsable de su propia operación.]`,
 
   // Testimonial 6 - Fátima
-  'testimonials.6.headline': 'Entré sin nada, usando la tarjeta de mi suegra — hoy pagué todas mis deudas',
-  'testimonials.6.transcript': `Profesor Diogo, primero solo tengo que agradecerle mucho por este proyecto de Copy Invest, porque cuando tuve conocimiento, al principio, realmente no tenía ningún recurso, realmente necesité usar la tarjeta de mi suegra, para iniciar todo el proceso estaba sin recursos, y entonces entré únicamente con fe, con esperanza y una expectativa de que algo bueno iba a pasar, y gracias a Dios funcionó muy bien, está funcionando muy bien, logré pagar mis deudas, estamos pagando todo correctamente, cada mes, estábamos en una situación muy difícil, yo y mi esposo, y así, la calidad de vida que hemos tenido, proporcionando a nuestros hijos, es algo increíble, entonces lo super recomiendo, si alguien que está viendo este video está inseguro, confundido, pensando si entra o no a Copy Invest, puedo decirte con toda fe, toda confianza, toda certeza, ven sin miedo, porque vale mucho la pena, y es solo el comienzo. Gracias, profesor Diogo, de corazón, solo tengo gratitud por Copy Invest.`,
+  'testimonials.6.headline': 'Fátima cuenta cómo reorganizó su vida financiera',
+  'testimonials.6.transcript': `Profesor Diogo, primero solo tengo que agradecerle mucho por este proyecto de Copy Invest, porque cuando tuve conocimiento, al principio, realmente no tenía ningún recurso, realmente necesité usar la tarjeta de mi suegra, para iniciar todo el proceso estaba sin recursos, y entonces entré únicamente con fe, con esperanza y una expectativa de que algo bueno iba a pasar, y gracias a Dios funcionó muy bien, está funcionando muy bien, logré pagar mis deudas, estamos pagando todo correctamente, cada mes, estábamos en una situación muy difícil, yo y mi esposo, y así, la calidad de vida que hemos tenido, proporcionando a nuestros hijos, es algo increíble, entonces lo super recomiendo, si alguien que está viendo este video está inseguro, confundido, pensando si entra o no a Copy Invest, puedo decirte con toda fe, toda confianza, toda certeza, ven sin miedo, porque vale mucho la pena, y es solo el comienzo. Gracias, profesor Diogo, de corazón, solo tengo gratitud por Copy Invest.
+
+[Nota de TOOGAIN: El CIPD es una herramienta automatizada configurada por el propio usuario. El Prof. Diogo no opera la cuenta de ningún cliente. Cada usuario es responsable de su propia operación.]`,
 
   // Testimonial 7 - Ailton
-  'testimonials.7.headline': '59 años, solo 6º grado, intenté más de 10 veces en otros cursos — Diogo estuvo 2 horas al teléfono conmigo hasta configurar todo',
+  'testimonials.7.headline': 'Ailton, 59 años, habla sobre el soporte que recibió',
   'testimonials.7.transcript': `Hola a todos, buenos días, buenas tardes, buenas noches, no sé a qué hora van a ver este video. Pasando para... Mi nombre es Ailton, primero. Pasando para hablarles un poco sobre el profesor Diogo.
 
 Hace poco tiempo que hablamos, pero vi algo diferente, verdad, este ramo del mercado financiero, criptomonedas, estas cosas. Ya intenté algunas veces, verdad, algunas más de 10, y no pude. ¿Cuál es el motivo? Falta de ayuda, verdad, mi conocimiento es pequeño, casi nada, verdad, no estudié, solo tengo 6º grado.
@@ -375,18 +426,22 @@ Entonces, si tienes duda y necesitas una persona de verdad, que tiene interés e
 
 Entonces eso es, si necesitan a alguien para dar apoyo, soporte financiero, a veces es como yo que no entiende nada. O también, puede ser, a veces entiendes, pero tienes miedo, piensas que es otra estafa, porque ya participé en muchas de ellas. Y nunca vi a nadie ni parecido a lo que Diogo ha estado haciendo.
 
-¡Todo lo mejor, Dios bendiga, vamos a la lucha!`,
+¡Todo lo mejor, Dios bendiga, vamos a la lucha!
+
+[Nota de TOOGAIN: El CIPD es una herramienta automatizada configurada por el propio usuario. El Prof. Diogo no opera la cuenta de ningún cliente. Cada usuario es responsable de su propia operación.]`,
 
   // Testimonial 8 - Toninho
-  'testimonials.8.headline': 'Construí el cuarto de los sueños de mi hijo con las ganancias del CIPD — TV 4K, lavabo de granito, porcelanato top',
+  'testimonials.8.headline': 'Toninho comparte cómo el CIPD impactó a su familia',
   'testimonials.8.transcript': `Me llamo Antônio Marcos, hablo desde el estado de Maranhão, soy alumno del profesor Diogo y ya conseguí hacer 2.520 en siete minutos, entonces me siento muy bien, estoy muy feliz. Grande Toninho, habla ahí, libera tu micrófono ahí Toninho. ¿Están escuchando? Buenas tardes gente, casi inicio de noche aquí para nosotros, ya estamos en un grupo y es un placer muy grande, una satisfacción.
 
 Tenemos ese propósito, hemos orado por el CIPD, por la familia de ustedes, soy bastante mayor que el profesor Diogo, soy de 1974, 21 de enero. Agradezco a Dios por haber conocido el mercado financiero hoy, que conozco a través del profesor Diogo. Hoy ya hice algunas realizaciones con ese mercado financiero, en el proyecto del profesor Diogo, del CIPD, gané más de lo que perdí, nunca perdí en verdad, siempre gané.
 
-Había pérdidas, pero llegaba fin de mes, siempre estaba positivo y al punto de construir un cuarto para mi hijo, un cuarto así como él quería, con televisión de 40 y tantas pulgadas, imagen 4K, lavabo de granito, esas cosas de porcelana de lo más top posible, incluso mandé cuando estaba casi listo, creo que filmé para el profesor Diogo, él confirmó ahí, pero él ya está en el cuarto, hoy está de vacaciones jugando, es un adolescente. Agradezco al profesor Diogo, porque él abrió las puertas para mí del mercado financiero y eso es galera, voy a pasar mi palabra para el próximo profesor, en un rato conversamos, gracias.`,
+Había pérdidas, pero llegaba fin de mes, siempre estaba positivo y al punto de construir un cuarto para mi hijo, un cuarto así como él quería, con televisión de 40 y tantas pulgadas, imagen 4K, lavabo de granito, esas cosas de porcelana de lo más top posible, incluso mandé cuando estaba casi listo, creo que filmé para el profesor Diogo, él confirmó ahí, pero él ya está en el cuarto, hoy está de vacaciones jugando, es un adolescente. Agradezco al profesor Diogo, porque él abrió las puertas para mí del mercado financiero y eso es galera, voy a pasar mi palabra para el próximo profesor, en un rato conversamos, gracias.
+
+[Nota de TOOGAIN: El CIPD es una herramienta automatizada configurada por el propio usuario. El Prof. Diogo no opera la cuenta de ningún cliente. Cada usuario es responsable de su propia operación.]`,
 
   // Testimonial 9 - David
-  'testimonials.9.headline': 'Pastor hizo R$12.500 de ganancia en el primer mes — "El CIPD fue respuesta de Dios a mis oraciones"',
+  'testimonials.9.headline': 'David cuenta su experiencia con el CIPD',
   'testimonials.9.transcript': `Hola, Diogo. ¿Todo bien? Ah, qué genial, hombre, poder hablar aquí contigo. Guau, el CIPD fue un regalo de Dios para mi vida y una respuesta a mis oraciones.
 
 Confieso que dejé pasar enero, febrero, marzo, pero a finales de marzo dije, no puedo dejar pasar otro mes, no puedo dejar pasar otra oportunidad. Entonces, entré y como dijiste, desde el 1 de abril hasta hoy, finales de abril, ya obtuve más de R$12 mil de ganancia, alrededor de R$12.500 y era algo que ni imaginaba que fuera posible. Y aún más de la forma que dijiste, cerca de las 9 enciendo mi notebook y el trabajo final es solo apagarlo cuando llegue, cuando sean las 18 horas.
@@ -397,5 +452,7 @@ Entonces, recomiendo. Veía muchos testimonios y decía, guau, qué genial, pero
 
 Entonces, super recomiendo y seguramente la expectativa para el futuro es gigantesca y tengo certeza de que esto es solo el comienzo y que lo mejor aún está por venir. Mi hermano, muchas gracias y que Dios te bendiga a ti y a toda tu familia. Un gran abrazo.
 
-Queda con Dios.`,
+Queda con Dios.
+
+[Nota de TOOGAIN: El CIPD es una herramienta automatizada configurada por el propio usuario. El Prof. Diogo no opera la cuenta de ningún cliente. Cada usuario es responsable de su propia operación.]`,
 };
