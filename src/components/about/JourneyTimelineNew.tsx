@@ -12,6 +12,7 @@ interface PhaseProps {
   textKeys: string[];
   quoteKey?: string;
   armKeys?: string[];
+  disclaimerKey?: string;
   isLast?: boolean;
 }
 
