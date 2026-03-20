@@ -3,6 +3,7 @@ import { testimonialsTranslationsPT, testimonialsTranslationsEN, testimonialsTra
 import { legalTranslationsPT, legalTranslationsEN, legalTranslationsES } from './legal-i18n';
 import { cipdTranslationsPT, cipdTranslationsEN, cipdTranslationsES } from './cipd-i18n';
 import { institutionalTranslationsPT, institutionalTranslationsEN, institutionalTranslationsES } from './institutional-i18n';
+import { cipdLegalPT, cipdLegalEN, cipdLegalES } from './cipd-legal-i18n';
 
 type Language = 'pt' | 'en' | 'es';
 
@@ -18,6 +19,7 @@ const translations = {
     ...legalTranslationsPT,
     ...cipdTranslationsPT,
     ...institutionalTranslationsPT,
+    ...cipdLegalPT,
     // Navigation
     'nav.manifesto': 'Manifesto',
     'nav.ecosystem': 'Ecossistema',
@@ -273,6 +275,7 @@ const translations = {
     ...legalTranslationsEN,
     ...cipdTranslationsEN,
     ...institutionalTranslationsEN,
+    ...cipdLegalEN,
     // Navigation
     'nav.manifesto': 'Manifesto',
     'nav.ecosystem': 'Ecosystem',
@@ -528,6 +531,7 @@ const translations = {
     ...legalTranslationsES,
     ...cipdTranslationsES,
     ...institutionalTranslationsES,
+    ...cipdLegalES,
     // Navigation
     'nav.manifesto': 'Manifiesto',
     'nav.ecosystem': 'Ecosistema',
