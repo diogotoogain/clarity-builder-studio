@@ -45,6 +45,7 @@ export const institutionalTranslationsPT = {
   'journey.phase5.text3': 'Em 9 meses, transformou R$600 em mais de R$100.000.',
   'journey.phase5.text4': 'Depois, R$10.000 em R$1.000.000 em 12 meses.',
   'journey.phase5.text5': 'A diferença? Ele não operava como a maioria perdedora. Não olhava gráficos como analista. Olhava como matemático. Estatístico. Ciência aplicada.',
+  'journey.phase5.disclaimer': 'Resultados pessoais do fundador. Rentabilidade passada não é garantia de resultados futuros. Operações em renda variável envolvem riscos de perda.',
   
   // Phase 6: Inspiration
   'journey.phase6.title': 'Jim Simons e a decisão de compartilhar',
@@ -155,6 +156,7 @@ export const institutionalTranslationsEN = {
   'journey.phase5.text3': 'In 9 months, he turned R$600 into more than R$100,000.',
   'journey.phase5.text4': 'Then, R$10,000 into R$1,000,000 in 12 months.',
   'journey.phase5.text5': "The difference? He didn't trade like the losing majority. He didn't look at charts like an analyst. He looked at them like a mathematician. A statistician. Applied science.",
+  'journey.phase5.disclaimer': "Founder's personal results. Past performance is not a guarantee of future results. Variable income operations involve risk of loss.",
   
   // Phase 6: Inspiration
   'journey.phase6.title': 'Jim Simons and the decision to share',
@@ -265,6 +267,7 @@ export const institutionalTranslationsES = {
   'journey.phase5.text3': 'En 9 meses, transformó R$600 en más de R$100.000.',
   'journey.phase5.text4': 'Después, R$10.000 en R$1.000.000 en 12 meses.',
   'journey.phase5.text5': '¿La diferencia? No operaba como la mayoría perdedora. No miraba gráficos como analista. Los miraba como matemático. Estadístico. Ciencia aplicada.',
+  'journey.phase5.disclaimer': 'Resultados personales del fundador. La rentabilidad pasada no garantiza resultados futuros. Las operaciones en renta variable implican riesgos de pérdida.',
   
   // Phase 6: Inspiration
   'journey.phase6.title': 'Jim Simons y la decisión de compartir',
