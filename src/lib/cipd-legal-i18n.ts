@@ -158,7 +158,7 @@ g) Não responsabilizará a TOOGAIN, seus sócios ou representantes por prejuíz
   'cipdPrivacy.subtitle': 'Política de Privacidade em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018)',
 
   'cipdPrivacy.section1.title': '1. Controlador dos Dados',
-  'cipdPrivacy.section1.content': 'A TOOGAIN MONEY ACADEMY LTDA é a controladora dos dados pessoais coletados no âmbito da comercialização e operação do produto CIPD – Copy Invest Prof Diogo.\n\nEncarregado de Proteção de Dados (DPO): Diogo Alves Rosendo – E-mail: legalizacao@contabileasy.com.br',
+  'cipdPrivacy.section1.content': 'A TOOGAIN MONEY ACADEMY LTDA é a controladora dos dados pessoais coletados no âmbito da comercialização e operação do produto CIPD – Copy Invest Prof Diogo.\n\nEncarregado de Proteção de Dados (DPO): Diogo Alves Rosendo – E-mail: diogo@toogain.com',
 
   'cipdPrivacy.section2.title': '2. Dados Coletados',
   'cipdPrivacy.section2.content': `Coletamos os seguintes dados pessoais:
@@ -407,7 +407,7 @@ g) They will not hold TOOGAIN, its partners, or representatives responsible for 
   'cipdPrivacy.subtitle': 'Privacy Policy in compliance with the General Data Protection Law (Law No. 13,709/2018)',
 
   'cipdPrivacy.section1.title': '1. Data Controller',
-  'cipdPrivacy.section1.content': 'TOOGAIN MONEY ACADEMY LTDA is the controller of personal data collected in the context of the commercialization and operation of the CIPD – Copy Invest Prof Diogo product.\n\nData Protection Officer (DPO): Diogo Alves Rosendo – Email: legalizacao@contabileasy.com.br',
+  'cipdPrivacy.section1.content': 'TOOGAIN MONEY ACADEMY LTDA is the controller of personal data collected in the context of the commercialization and operation of the CIPD – Copy Invest Prof Diogo product.\n\nData Protection Officer (DPO): Diogo Alves Rosendo – Email: diogo@toogain.com',
 
   'cipdPrivacy.section2.title': '2. Data Collected',
   'cipdPrivacy.section2.content': `We collect the following personal data:
@@ -656,7 +656,7 @@ g) No responsabilizará a TOOGAIN, sus socios o representantes por perjuicios fi
   'cipdPrivacy.subtitle': 'Política de Privacidad conforme a la Ley General de Protección de Datos (Ley nº 13.709/2018)',
 
   'cipdPrivacy.section1.title': '1. Controlador de los Datos',
-  'cipdPrivacy.section1.content': 'TOOGAIN MONEY ACADEMY LTDA es la controladora de los datos personales recopilados en el ámbito de la comercialización y operación del producto CIPD – Copy Invest Prof Diogo.\n\nEncargado de Protección de Datos (DPO): Diogo Alves Rosendo – E-mail: legalizacao@contabileasy.com.br',
+  'cipdPrivacy.section1.content': 'TOOGAIN MONEY ACADEMY LTDA es la controladora de los datos personales recopilados en el ámbito de la comercialización y operación del producto CIPD – Copy Invest Prof Diogo.\n\nEncargado de Protección de Datos (DPO): Diogo Alves Rosendo – E-mail: diogo@toogain.com',
 
   'cipdPrivacy.section2.title': '2. Datos Recopilados',
   'cipdPrivacy.section2.content': `Recopilamos los siguientes datos personales:
