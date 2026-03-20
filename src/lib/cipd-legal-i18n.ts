@@ -83,7 +83,7 @@ g) Variações de performance em relação a resultados passados divulgados.
 7.3. A violação da propriedade intelectual sujeitará o infrator às sanções civis e penais cabíveis, incluindo indenização por perdas e danos no valor mínimo de R$ 100.000,00 (cem mil reais), sem prejuízo de outras medidas.`,
 
   'cipdTerms.section8.title': '8. Isenção de Responsabilidade de Terceiros',
-  'cipdTerms.section8.content': `8.1. O USUÁRIO reconhece que as plataformas de pagamento utilizadas (incluindo, mas não se limitando a Hotmart, Mercado Pago, InfinitePay, Eduzz ou quaisquer outras) atuam exclusivamente como intermediárias de pagamento e não participam da prestação do serviço ou da entrega do produto.
+  'cipdTerms.section8.content': `8.1. O USUÁRIO reconhece que as plataformas de pagamento utilizadas (incluindo, mas não se limitando a Hotmart, Mercado Pago, InfinitePay, Eduzz, GoExplosion ou quaisquer outras) atuam exclusivamente como intermediárias de pagamento e não participam da prestação do serviço ou da entrega do produto.
 
 8.2. Eventuais reclamações relativas ao funcionamento, performance ou resultados do Software CIPD devem ser direcionadas exclusivamente à TOOGAIN, sendo vedado ao USUÁRIO responsabilizar plataformas de pagamento por questões relativas ao produto.
 
@@ -178,7 +178,7 @@ e) Exercício regular de direitos em processo judicial, administrativo ou arbitr
   'cipdPrivacy.section4.title': '4. Compartilhamento de Dados',
   'cipdPrivacy.section4.content': `Seus dados poderão ser compartilhados com:
 
-a) Plataformas de pagamento (Hotmart, Mercado Pago, InfinitePay, etc.) para processamento da transação;
+a) Plataformas de pagamento (Hotmart, Mercado Pago, InfinitePay, Eduzz, GoExplosion ou quaisquer outras) para processamento da transação;
 b) Serviços de contabilidade e assessoria jurídica da TOOGAIN;
 c) Autoridades competentes, quando exigido por lei ou ordem judicial.
 
@@ -332,7 +332,7 @@ g) Performance variations relative to past disclosed results.
 7.3. Violation of intellectual property will subject the offender to applicable civil and criminal penalties, including compensation for losses and damages of a minimum of R$ 100,000.00, without prejudice to other measures.`,
 
   'cipdTerms.section8.title': '8. Third-Party Liability Exemption',
-  'cipdTerms.section8.content': `8.1. The USER acknowledges that the payment platforms used (including but not limited to Hotmart, Mercado Pago, InfinitePay, Eduzz, or any others) act exclusively as payment intermediaries and do not participate in service provision or product delivery.
+  'cipdTerms.section8.content': `8.1. The USER acknowledges that the payment platforms used (including but not limited to Hotmart, Mercado Pago, InfinitePay, Eduzz, GoExplosion, or any others) act exclusively as payment intermediaries and do not participate in service provision or product delivery.
 
 8.2. Any complaints regarding the operation, performance, or results of the CIPD Software must be directed exclusively to TOOGAIN, and the USER is prohibited from holding payment platforms responsible for product-related issues.
 
@@ -427,7 +427,7 @@ e) Regular exercise of rights in judicial, administrative, or arbitration procee
   'cipdPrivacy.section4.title': '4. Data Sharing',
   'cipdPrivacy.section4.content': `Your data may be shared with:
 
-a) Payment platforms (Hotmart, Mercado Pago, InfinitePay, etc.) for transaction processing;
+a) Payment platforms (Hotmart, Mercado Pago, InfinitePay, Eduzz, GoExplosion, or any others) for transaction processing;
 b) TOOGAIN's accounting and legal advisory services;
 c) Competent authorities, when required by law or court order.
 
@@ -581,7 +581,7 @@ g) Variaciones de rendimiento en relación con resultados pasados divulgados.
 7.3. La violación de la propiedad intelectual sujetará al infractor a las sanciones civiles y penales correspondientes, incluyendo indemnización por pérdidas y daños de un valor mínimo de R$ 100.000,00 (cien mil reales), sin perjuicio de otras medidas.`,
 
   'cipdTerms.section8.title': '8. Exención de Responsabilidad de Terceros',
-  'cipdTerms.section8.content': `8.1. El USUARIO reconoce que las plataformas de pago utilizadas (incluyendo pero no limitándose a Hotmart, Mercado Pago, InfinitePay, Eduzz o cualquier otra) actúan exclusivamente como intermediarias de pago y no participan en la prestación del servicio o la entrega del producto.
+  'cipdTerms.section8.content': `8.1. El USUARIO reconoce que las plataformas de pago utilizadas (incluyendo pero no limitándose a Hotmart, Mercado Pago, InfinitePay, Eduzz, GoExplosion o cualquier otra) actúan exclusivamente como intermediarias de pago y no participan en la prestación del servicio o la entrega del producto.
 
 8.2. Eventuales reclamaciones relativas al funcionamiento, rendimiento o resultados del Software CIPD deben dirigirse exclusivamente a TOOGAIN, quedando prohibido al USUARIO responsabilizar a plataformas de pago por cuestiones relativas al producto.
 
@@ -676,7 +676,7 @@ e) Ejercicio regular de derechos en proceso judicial, administrativo o arbitral 
   'cipdPrivacy.section4.title': '4. Compartición de Datos',
   'cipdPrivacy.section4.content': `Sus datos podrán ser compartidos con:
 
-a) Plataformas de pago (Hotmart, Mercado Pago, InfinitePay, etc.) para procesamiento de la transacción;
+a) Plataformas de pago (Hotmart, Mercado Pago, InfinitePay, Eduzz, GoExplosion o cualquier otra) para procesamiento de la transacción;
 b) Servicios de contabilidad y asesoría jurídica de TOOGAIN;
 c) Autoridades competentes, cuando sea exigido por ley u orden judicial.
 
